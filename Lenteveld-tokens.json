@@ -59,16 +59,6 @@
             "value": "Bold",
             "type": "fontWeights"
           }
-        },
-        "font-family": {
-          "primary": {
-            "value": "Fira Sans, Tahoma, Verdana, sans-serif",
-            "type": "fontFamilies"
-          },
-          "secondary": {
-            "value": "Fira Sans, Tahoma, Verdana, sans-serif",
-            "type": "fontFamilies"
-          }
         }
       },
       "color": {
@@ -943,6 +933,20 @@
           "type": "boxShadow"
         }
       }
+    },
+    "utrecht": {
+      "typography": {
+        "font-family": {
+          "primary": {
+            "value": "Fira Sans, Tahoma, Verdana, sans-serif",
+            "type": "fontFamilies"
+          },
+          "secondary": {
+            "value": "Fira Sans, Tahoma, Verdana, sans-serif",
+            "type": "fontFamilies"
+          }
+        }
+      }
     }
   },
   "common": {
@@ -979,7 +983,7 @@
           }
         },
         "font-family": {
-          "value": "{lenteveld.typography.font-family.secondary}",
+          "value": "{utrecht.typography.font-family.secondary}",
           "type": "fontFamilies"
         },
         "font-size": {
@@ -1007,7 +1011,7 @@
           "type": "color"
         },
         "font-family": {
-          "value": "{lenteveld.typography.font-family.primary}",
+          "value": "{utrecht.typography.font-family.primary}",
           "type": "fontFamilies"
         },
         "font-weight": {
