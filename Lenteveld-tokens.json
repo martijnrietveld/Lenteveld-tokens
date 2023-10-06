@@ -944,7 +944,7 @@
       "typography": {
         "font-family": {
           "secondary": {
-            "value": "Fira Sans, Tahoma, Verdana, sans-serif",
+            "value": "Inter, Tahoma, Verdana, sans-serif",
             "type": "fontFamilies"
           }
         }
