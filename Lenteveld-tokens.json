@@ -2578,7 +2578,7 @@
         },
         "background-color": {
           "type": "color",
-          "value": "{lenteveld.color.violet.100}"
+          "value": "{lenteveld.color.secondary-color}"
         },
         "border-color": {
           "type": "color",
@@ -2586,7 +2586,7 @@
         },
         "color": {
           "type": "color",
-          "value": "{utrecht.document.color}"
+          "value": "{lenteveld.color.white}"
         },
         "padding-inline": {
           "value": "{lenteveld.space.block.ant}",
