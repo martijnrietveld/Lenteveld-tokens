@@ -2554,11 +2554,11 @@
         },
         "min-block-size": {
           "type": "sizing",
-          "value": "{lenteveld.size.xs}"
+          "value": "{lenteveld.size.icon.2xl}"
         },
         "min-inline-size": {
           "type": "sizing",
-          "value": "{lenteveld.size.xs}"
+          "value": "{lenteveld.size.icon.2xl}"
         },
         "font-weight": {
           "value": "{utrecht.document.strong.font-weight}",
@@ -2589,7 +2589,7 @@
           "value": "{utrecht.document.color}"
         },
         "padding-inline": {
-          "value": "{lenteveld.space.inline.ant}",
+          "value": "{lenteveld.space.block.ant}",
           "type": "spacing"
         },
         "padding-block": {
