@@ -1949,22 +1949,6 @@
               "type": "color"
             }
           },
-          "padding-block-end": {
-            "value": "{lenteveld.space.block.snail}",
-            "type": "spacing"
-          },
-          "padding-block-start": {
-            "value": "{lenteveld.space.block.snail}",
-            "type": "spacing"
-          },
-          "padding-inline-end": {
-            "value": "0px",
-            "type": "spacing"
-          },
-          "padding-inline-start": {
-            "value": "{lenteveld.space.inline.ant}",
-            "type": "spacing"
-          },
           "positive": {
             "color": {
               "value": "{utrecht.feedback.positive.color}",
@@ -1982,10 +1966,24 @@
               "value": "{utrecht.feedback.warning.color}",
               "type": "color"
             }
+          }
+        },
+        "bullet": {
+          "padding-block-end": {
+            "value": "{lenteveld.space.block.snail}",
+            "type": "spacing"
           },
-          "size": {
-            "type": "sizing",
-            "value": "{utrecht.icon.functional.size}"
+          "padding-block-start": {
+            "value": "{lenteveld.space.block.snail}",
+            "type": "spacing"
+          },
+          "padding-inline-end": {
+            "value": "0px",
+            "type": "spacing"
+          },
+          "padding-inline-start": {
+            "value": "{lenteveld.space.inline.ant}",
+            "type": "spacing"
           }
         },
         "negative": {
@@ -2043,6 +2041,10 @@
             "value": "{lenteveld.space.block.beetle}",
             "type": "spacing"
           }
+        },
+        "body": {
+          "value": "{utrecht.paragraph.font-family}",
+          "type": "fontFamilies"
         }
       }
     }
