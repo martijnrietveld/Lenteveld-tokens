@@ -1884,8 +1884,8 @@
     }
   },
   "components/step-by-step-plan": {
-    "utrecht": {
-      "alert": {
+    "opengemeenten": {
+      "step-by-step-plan": {
         "heading": {
           "font-family": {
             "value": "{utrecht.heading.font-family}",
@@ -1900,7 +1900,7 @@
             "type": "lineHeights"
           },
           "font-size": {
-            "value": "{lenteveld.typography.font-size.xl}",
+            "value": "{lenteveld.typography.font-size.lg}",
             "type": "fontSizes"
           }
         },
