@@ -4,7 +4,7 @@
       "typography": {
         "font-size": {
           "sm": {
-            "value": "14px",
+            "value": "15px",
             "type": "fontSizes"
           },
           "md": {
@@ -1807,6 +1807,64 @@
       }
     }
   },
+  "components/tag": {
+    "opengemeenten": {
+      "tag": {
+        "padding-inline": {
+          "value": "{lenteveld.space.block.dog}",
+          "type": "spacing"
+        },
+        "padding-block": {
+          "value": "{lenteveld.space.block.cat}",
+          "type": "spacing"
+        },
+        "border-radius": {
+          "value": "{lenteveld.border-radius.lg}",
+          "type": "borderRadius"
+        },
+        "background-color": {
+          "value": "{lenteveld.color.blue.400}",
+          "type": "color"
+        },
+        "color": {
+          "value": "{lenteveld.color.green.500}",
+          "type": "color"
+        },
+        "border-width": {
+          "value": "{lenteveld.border-width.md}",
+          "type": "borderWidth"
+        },
+        "border-color": {
+          "value": {
+            "color": "{lenteveld.color.blue.900}"
+          },
+          "type": "border"
+        },
+        "font-family": {
+          "value": "{lenteveld.typography.font-family.primary}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{lenteveld.typography.font-weight.normal}",
+          "type": "fontWeights"
+        }
+      }
+    }
+  },
+  "components/datetime": {
+    "opengemeenten": {
+      "datetime": {
+        "column-gap": {
+          "value": "{lenteveld.space.block.ant}",
+          "type": "spacing"
+        },
+        "font-weight": {
+          "value": "{lenteveld.typography.font-weight.bold}",
+          "type": "fontWeights"
+        }
+      }
+    }
+  },
   "components/step-by-step-plan": {
     "opengemeenten": {
       "step-by-step-plan": {
@@ -1821,6 +1879,12 @@
         "font-family": {
           "value": "{lenteveld.typography.font-family.primary}",
           "type": "fontFamilies"
+        }
+      },
+      "datetime": {
+        "font-size": {
+          "value": "{lenteveld.typography.font-size.sm}",
+          "type": "fontSizes"
         }
       }
     }
@@ -4874,6 +4938,8 @@
       "components/accordion",
       "components/alert",
       "components/card",
+      "components/tag",
+      "components/datetime",
       "components/step-by-step-plan",
       "components/blockquote",
       "components/breadcrumb",
