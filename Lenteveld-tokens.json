@@ -1811,15 +1811,15 @@
     "opengemeenten": {
       "tag": {
         "padding-inline": {
-          "value": "{lenteveld.space.block.dog}",
+          "value": "{lenteveld.space.block.beetle}",
           "type": "spacing"
         },
         "padding-block": {
-          "value": "{lenteveld.space.block.cat}",
+          "value": "{lenteveld.space.block.ant}",
           "type": "spacing"
         },
         "border-radius": {
-          "value": "{lenteveld.border-radius.lg}",
+          "value": "{lenteveld.border-radius.round}",
           "type": "borderRadius"
         },
         "background-color": {
@@ -1827,7 +1827,7 @@
           "type": "color"
         },
         "color": {
-          "value": "{lenteveld.color.green.500}",
+          "value": "{utrecht.accordion.button.expanded.border-color}",
           "type": "color"
         },
         "border-width": {
@@ -1836,7 +1836,7 @@
         },
         "border-color": {
           "value": {
-            "color": "{lenteveld.color.blue.900}"
+            "color": "{utrecht.textbox.border-color}"
           },
           "type": "border"
         },
@@ -1847,6 +1847,16 @@
         "font-weight": {
           "value": "{lenteveld.typography.font-weight.normal}",
           "type": "fontWeights"
+        },
+        "font-size": {
+          "value": "{lenteveld.typography.font-size.sm}",
+          "type": "fontSizes"
+        },
+        "icon": {
+          "size": {
+            "value": "{lenteveld.size.icon.sm}",
+            "type": "sizing"
+          }
         }
       }
     }
