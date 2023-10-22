@@ -1811,27 +1811,23 @@
     "opengemeenten": {
       "tag": {
         "padding-inline": {
-          "value": "{lenteveld.space.block.beetle}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-block": {
-          "value": "{lenteveld.space.block.ant}",
+          "value": "{lenteveld.space.block.flea}",
           "type": "spacing"
         },
         "border-radius": {
           "value": "{lenteveld.border-radius.round}",
           "type": "borderRadius"
         },
-        "background-color": {
-          "value": "{lenteveld.color.blue.400}",
-          "type": "color"
-        },
         "color": {
           "value": "{utrecht.accordion.button.expanded.border-color}",
           "type": "color"
         },
         "border-width": {
-          "value": "{lenteveld.border-width.md}",
+          "value": "{nl.avatar.border-width}",
           "type": "borderWidth"
         },
         "border-color": {
