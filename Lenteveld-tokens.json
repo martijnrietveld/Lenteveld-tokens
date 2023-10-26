@@ -1245,7 +1245,7 @@
     "og": {
       "document": {
         "font-family": {
-          "value": "{og.typography.font-family.secondary}",
+          "value": "{og.typography.font-family.primary}",
           "type": "fontFamilies"
         }
       },
