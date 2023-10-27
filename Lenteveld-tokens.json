@@ -1897,6 +1897,14 @@
           "type": "fontSizes"
         }
       }
+    },
+    "og": {
+      "step-by-step-plan": {
+        "bullet": {
+          "value": "{og.color.secondary-color}",
+          "type": "color"
+        }
+      }
     }
   },
   "components/blockquote": {
