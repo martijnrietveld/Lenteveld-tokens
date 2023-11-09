@@ -1230,13 +1230,13 @@
       "icon": {
         "functional": {
           "size": {
-            "value": "{og.size.xs}",
+            "value": "{og.size.icon.md}",
             "type": "sizing"
           }
         },
         "toptask": {
           "size": {
-            "value": "{og.size.md}",
+            "value": "{og.size.icon.4xl}",
             "type": "sizing"
           }
         }
@@ -1583,7 +1583,7 @@
           "type": "spacing"
         },
         "border-width": {
-          "value": "{utrecht.form-control.invalid.border-width}",
+          "value": "{og.border-width.md}",
           "type": "borderWidth"
         },
         "padding-block-end": {
@@ -1706,7 +1706,7 @@
         },
         "message": {
           "row-gap": {
-            "value": "{og.space.column.snail}",
+            "value": "{og.space.column.rat}",
             "type": "spacing"
           },
           "padding-block-end": {
@@ -1714,6 +1714,12 @@
             "type": "spacing"
           },
           "padding-block-start": {
+            "value": "{og.space.block.beetle}",
+            "type": "spacing"
+          }
+        },
+        "content": {
+          "row-gap": {
             "value": "{og.space.block.beetle}",
             "type": "spacing"
           }
@@ -2443,6 +2449,40 @@
         "min-inline-size": {
           "type": "sizing",
           "value": "{utrecht.pointer-target.min-size}"
+        }
+      }
+    }
+  },
+  "components/button-group": {
+    "utrecht": {
+      "button-group": {
+        "background-color": {
+          "value": "transparent",
+          "type": "color"
+        },
+        "column-gap": {
+          "value": "{og.space.block.mouse}",
+          "type": "spacing"
+        },
+        "margin-block-end": {
+          "value": "0px",
+          "type": "spacing"
+        },
+        "margin-block-start": {
+          "value": "0px",
+          "type": "spacing"
+        },
+        "padding-block-end": {
+          "value": "0px",
+          "type": "spacing"
+        },
+        "padding-block-start": {
+          "value": "0px",
+          "type": "spacing"
+        },
+        "row-gap": {
+          "value": "{og.space.block.snail}",
+          "type": "spacing"
         }
       }
     }
@@ -4962,6 +5002,7 @@
       "components/blockquote",
       "components/breadcrumb",
       "components/button",
+      "components/button-group",
       "components/checkbox",
       "components/checkbox-group",
       "components/counter-badge",
