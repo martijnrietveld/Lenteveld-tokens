@@ -1867,52 +1867,6 @@
       }
     }
   },
-  "components/datetime": {
-    "opengemeenten": {
-      "datetime": {
-        "column-gap": {
-          "value": "{og.space.block.ant}",
-          "type": "spacing"
-        },
-        "font-weight": {
-          "value": "{og.typography.font-weight.bold}",
-          "type": "fontWeights"
-        }
-      }
-    }
-  },
-  "components/step-by-step-plan": {
-    "opengemeenten": {
-      "step-by-step-plan": {
-        "padding-block": {
-          "value": "{og.space.block.ant}",
-          "type": "spacing"
-        },
-        "padding-block-end": {
-          "value": "{og.space.block.mouse}",
-          "type": "spacing"
-        },
-        "font-family": {
-          "value": "{og.typography.font-family.primary}",
-          "type": "fontFamilies"
-        }
-      },
-      "datetime": {
-        "font-size": {
-          "value": "{og.typography.font-size.sm}",
-          "type": "fontSizes"
-        }
-      }
-    },
-    "og": {
-      "step-by-step-plan": {
-        "bullet": {
-          "value": "{og.color.secondary-color}",
-          "type": "color"
-        }
-      }
-    }
-  },
   "components/blockquote": {
     "utrecht": {
       "blockquote": {
@@ -4987,6 +4941,52 @@
       }
     }
   },
+  "local/datetime": {
+    "opengemeenten": {
+      "datetime": {
+        "column-gap": {
+          "value": "{og.space.block.ant}",
+          "type": "spacing"
+        },
+        "font-weight": {
+          "value": "{og.typography.font-weight.bold}",
+          "type": "fontWeights"
+        }
+      }
+    }
+  },
+  "local/step-by-step-plan": {
+    "opengemeenten": {
+      "step-by-step-plan": {
+        "padding-block": {
+          "value": "{og.space.block.ant}",
+          "type": "spacing"
+        },
+        "padding-block-end": {
+          "value": "{og.space.block.mouse}",
+          "type": "spacing"
+        },
+        "font-family": {
+          "value": "{og.typography.font-family.primary}",
+          "type": "fontFamilies"
+        }
+      },
+      "datetime": {
+        "font-size": {
+          "value": "{og.typography.font-size.sm}",
+          "type": "fontSizes"
+        }
+      }
+    },
+    "og": {
+      "step-by-step-plan": {
+        "bullet": {
+          "value": "{og.color.secondary-color}",
+          "type": "color"
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -4997,8 +4997,6 @@
       "components/alert",
       "components/card",
       "components/tag",
-      "components/datetime",
-      "components/step-by-step-plan",
       "components/blockquote",
       "components/breadcrumb",
       "components/button",
@@ -5030,7 +5028,9 @@
       "components/table",
       "components/textarea",
       "components/textbox",
-      "components/unordered-list"
+      "components/unordered-list",
+      "local/datetime",
+      "local/step-by-step-plan"
     ]
   }
 }
