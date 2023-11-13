@@ -3095,7 +3095,7 @@
       }
     }
   },
-  "components/header": {
+  "components/heading": {
     "utrecht": {
       "heading-1": {
         "color": {
@@ -4987,7 +4987,7 @@
       }
     }
   },
-  "large-viewport/header": {
+  "large-viewport/heading": {
     "og": {
       "typography": {
         "font-size": {
@@ -5387,7 +5387,7 @@
       "components/form-field-label",
       "components/form-field-option-label",
       "components/form-field-radio-option",
-      "components/header",
+      "components/heading",
       "components/icon-only-button",
       "components/link",
       "components/ordered-list",
@@ -5406,7 +5406,7 @@
       "components/unordered-list",
       "local/datetime",
       "local/step-by-step-plan",
-      "large-viewport/header"
+      "large-viewport/heading"
     ]
   }
 }
