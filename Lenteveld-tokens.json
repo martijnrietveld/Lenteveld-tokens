@@ -4987,6 +4987,18 @@
       }
     }
   },
+  "local/header": {
+    "og": {
+      "header": {
+        "menu": {
+          "gap": {
+            "value": "{og.space.block.mouse}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  },
   "large-viewport/heading": {
     "og": {
       "typography": {
@@ -5406,6 +5418,7 @@
       "components/unordered-list",
       "local/datetime",
       "local/step-by-step-plan",
+      "local/header",
       "large-viewport/heading"
     ]
   }
