@@ -2218,7 +2218,7 @@
         },
         "border-radius": {
           "type": "borderRadius",
-          "value": "{og.border-radius.md}"
+          "value": "{og.border-radius.sm}"
         },
         "border-width": {
           "type": "borderWidth",
