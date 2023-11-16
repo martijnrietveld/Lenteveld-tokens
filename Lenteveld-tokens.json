@@ -3,8 +3,46 @@
     "og": {
       "typography": {
         "font-size": {
+          "xs": {
+            "value": "13px",
+            "type": "fontSizes"
+          },
           "sm": {
+            "value": "14px",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "16px",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "19px",
+            "type": "fontSizes"
+          },
+          "xl": {
+            "value": "21px",
+            "type": "fontSizes"
+          },
+          "2xl": {
+            "value": "26px",
+            "type": "fontSizes"
+          },
+          "3xl": {
+            "value": "35px",
+            "type": "fontSizes"
+          },
+          "4xl": {
+            "value": "40px",
+            "type": "fontSizes"
+          }
+        },
+        "font-size-l": {
+          "xs": {
             "value": "15px",
+            "type": "fontSizes"
+          },
+          "sm": {
+            "value": "16px",
             "type": "fontSizes"
           },
           "md": {
@@ -12,7 +50,7 @@
             "type": "fontSizes"
           },
           "lg": {
-            "value": "20px",
+            "value": "21px",
             "type": "fontSizes"
           },
           "xl": {
@@ -20,11 +58,11 @@
             "type": "fontSizes"
           },
           "2xl": {
-            "value": "32px",
+            "value": "30px",
             "type": "fontSizes"
           },
           "3xl": {
-            "value": "35px",
+            "value": "40px",
             "type": "fontSizes"
           },
           "4xl": {
