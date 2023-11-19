@@ -448,6 +448,14 @@
           "value": "#00801e",
           "type": "color"
         },
+        "secondary-color-light": {
+          "value": "#009924",
+          "type": "color"
+        },
+        "secondary-color-dark": {
+          "value": "#006618",
+          "type": "color"
+        },
         "support-color": {
           "value": "#f6a61e",
           "type": "color"
@@ -460,12 +468,20 @@
           "value": "#f09c0a",
           "type": "color"
         },
-        "secondary-color-light": {
-          "value": "#009924",
+        "contrast-color-light": {
+          "value": "#47D2B6",
           "type": "color"
         },
-        "secondary-color-dark": {
-          "value": "#006618",
+        "contrast-color": {
+          "value": "#32CDAE",
+          "type": "color"
+        },
+        "contrast-color-dark": {
+          "value": "#2DB89C",
+          "type": "color"
+        },
+        "background-color": {
+          "value": "#edefed",
           "type": "color"
         },
         "gray": {
@@ -716,28 +732,28 @@
         },
         "active": {
           "color": {
-            "value": "{lenteveld.color.violet.900}",
+            "value": "{og.color.primary-color-dark}",
             "type": "color"
           }
         },
         "hover": {
           "color": {
-            "value": "{lenteveld.color.violet.800}",
+            "value": "{og.color.primary-color-dark}",
             "type": "color"
           }
         }
       },
       "focus": {
-        "background-color": {
-          "value": "{lenteveld.color.violet.200}",
-          "type": "color"
-        },
         "color": {
           "value": "{og.color.black}",
           "type": "color"
         },
+        "background-color": {
+          "value": "{og.color.support-color}",
+          "type": "color"
+        },
         "outline-color": {
-          "value": "{lenteveld.color.violet.700}",
+          "value": "{og.color.support-color}",
           "type": "color"
         },
         "inverse": {
