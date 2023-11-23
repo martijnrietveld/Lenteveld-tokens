@@ -1919,7 +1919,7 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{og.document.font-size.large}",
+          "value": "{og.document.font-size.small}",
           "type": "fontSizes"
         },
         "font-weight": {
