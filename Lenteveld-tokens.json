@@ -4759,28 +4759,6 @@
       }
     }
   },
-  "local/footer": {
-    "utrecht": {
-      "alert": {
-        "background": {
-          "color": {
-            "value": "{og.color.primary-color}",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "og": {
-      "footer-dark": {
-        "link": {
-          "color": {
-            "value": "{og.color.white}",
-            "type": "color"
-          }
-        }
-      }
-    }
-  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -4827,8 +4805,7 @@
       "large-viewport/heading",
       "local/datetime",
       "local/step-by-step-plan",
-      "local/header",
-      "local/footer"
+      "local/header"
     ]
   }
 }
