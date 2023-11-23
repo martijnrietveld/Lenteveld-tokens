@@ -4759,6 +4759,18 @@
       }
     }
   },
+  "local/footer": {
+    "og": {
+      "footer": {
+        "background": {
+          "color": {
+            "value": "{og.color.primary-color}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -4805,7 +4817,8 @@
       "large-viewport/heading",
       "local/datetime",
       "local/step-by-step-plan",
-      "local/header"
+      "local/header",
+      "local/footer"
     ]
   }
 }
