@@ -5024,6 +5024,12 @@
         "font-size": {
           "value": "{ogds.typography.font-size.3xl}",
           "type": "fontSizes"
+        },
+        "large-container": {
+          "font-size": {
+            "value": "{ogds.typography.font-size.l-3xl}",
+            "type": "fontSizes"
+          }
         }
       },
       "heading-2": {
@@ -5046,6 +5052,12 @@
         "font-size": {
           "value": "{ogds.typography.font-size.2xl}",
           "type": "fontSizes"
+        },
+        "large-container": {
+          "font-size": {
+            "value": "{ogds.typography.font-size.l-2xl}",
+            "type": "fontSizes"
+          }
         }
       },
       "heading-3": {
@@ -5068,6 +5080,12 @@
         "font-size": {
           "value": "{ogds.typography.font-size.lg}",
           "type": "fontSizes"
+        },
+        "large-container": {
+          "font-size": {
+            "value": "{ogds.typography.font-size.l-lg}",
+            "type": "fontSizes"
+          }
         }
       },
       "heading-4": {
@@ -5090,50 +5108,12 @@
         "font-size": {
           "value": "{ogds.typography.font-size.md}",
           "type": "fontSizes"
-        }
-      },
-      "heading-5": {
-        "color": {
-          "type": "color",
-          "value": "{ogds.heading.color}"
         },
-        "font-family": {
-          "value": "{ogds.heading.font-family}",
-          "type": "fontFamilies"
-        },
-        "font-weight": {
-          "value": "{ogds.heading.font-weight}",
-          "type": "fontWeights"
-        },
-        "line-height": {
-          "value": "{ogds.typography.line-height.md}",
-          "type": "lineHeights"
-        },
-        "font-size": {
-          "value": "{ogds.typography.font-size.sm}",
-          "type": "fontSizes"
-        }
-      },
-      "heading-6": {
-        "color": {
-          "type": "color",
-          "value": "{ogds.heading.color}"
-        },
-        "font-family": {
-          "value": "{ogds.heading.font-family}",
-          "type": "fontFamilies"
-        },
-        "font-weight": {
-          "value": "{ogds.heading.font-weight}",
-          "type": "fontWeights"
-        },
-        "line-height": {
-          "value": "{ogds.typography.line-height.md}",
-          "type": "lineHeights"
-        },
-        "font-size": {
-          "value": "{ogds.typography.font-size.xs}",
-          "type": "fontSizes"
+        "large-container": {
+          "font-size": {
+            "value": "{ogds.typography.font-size.l-md}",
+            "type": "fontSizes"
+          }
         }
       }
     }
@@ -5449,58 +5429,6 @@
       }
     }
   },
-  "large-viewport/heading": {
-    "utrecht": {
-      "heading-1": {
-        "large-viewport": {
-          "font-size": {
-            "value": "{ogds.typography.font-size.l-3xl}",
-            "type": "fontSizes"
-          }
-        }
-      },
-      "heading-2": {
-        "large-viewport": {
-          "font-size": {
-            "value": "{ogds.typography.font-size.l-2xl}",
-            "type": "fontSizes"
-          }
-        }
-      },
-      "heading-3": {
-        "large-viewport": {
-          "font-size": {
-            "value": "{ogds.typography.font-size.l-lg}",
-            "type": "fontSizes"
-          }
-        }
-      },
-      "heading-4": {
-        "large-viewport": {
-          "font-size": {
-            "value": "{ogds.typography.font-size.l-md}",
-            "type": "fontSizes"
-          }
-        }
-      },
-      "heading-5": {
-        "large-viewport": {
-          "font-size": {
-            "value": "{ogds.typography.font-size.l-sm}",
-            "type": "fontSizes"
-          }
-        }
-      },
-      "heading-6": {
-        "large-viewport": {
-          "font-size": {
-            "value": "{ogds.typography.font-size.l-xs}",
-            "type": "fontSizes"
-          }
-        }
-      }
-    }
-  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -5554,8 +5482,7 @@
       "local/page-header",
       "local/page-card-menu",
       "local/paragraph",
-      "local/tag",
-      "large-viewport/heading"
+      "local/tag"
     ]
   }
 }
