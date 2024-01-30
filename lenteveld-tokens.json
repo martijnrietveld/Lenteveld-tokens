@@ -5313,6 +5313,86 @@
       }
     }
   },
+  "local/paragraph": {
+    "utrecht": {
+      "paragraph": {
+        "color": {
+          "type": "color",
+          "value": "{utrecht.document.color}"
+        },
+        "font-weight": {
+          "value": "{utrecht.document.font-weight}",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{utrecht.document.line-height}",
+          "type": "lineHeights"
+        },
+        "font-family": {
+          "value": "{utrecht.document.font-family}",
+          "type": "fontFamilies"
+        },
+        "font-size": {
+          "value": "{ogds.typography.font-size.md}",
+          "type": "fontSizes"
+        },
+        "large-viewport": {
+          "font-size": {
+            "value": "{ogds.typography.font-size.l-md}",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "paragraph-lead": {
+        "color": {
+          "type": "color",
+          "value": "{utrecht.document.color}"
+        },
+        "font-weight": {
+          "value": "{utrecht.document.font-weight}",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{utrecht.document.line-height}",
+          "type": "lineHeights"
+        },
+        "font-family": {
+          "value": "{utrecht.document.font-family}",
+          "type": "fontFamilies"
+        },
+        "large-viewport": {
+          "font-size": {
+            "value": "{ogds.typography.font-size.l-lg}",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "paragraph-small-print": {
+        "color": {
+          "type": "color",
+          "value": "{utrecht.document.color}"
+        },
+        "font-weight": {
+          "value": "{utrecht.document.font-weight}",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{utrecht.document.line-height}",
+          "type": "lineHeights"
+        },
+        "font-family": {
+          "value": "{utrecht.document.font-family}",
+          "type": "fontFamilies"
+        },
+        "large-viewport": {
+          "font-size": {
+            "value": "{ogds.typography.font-size.l-sm}",
+            "type": "fontSizes"
+          }
+        }
+      }
+    }
+  },
   "local/tag": {
     "ogds": {
       "tag": {
@@ -5364,15 +5444,19 @@
     }
   },
   "large-viewport/paragraph": {
-    "utrecht": {
-      "paragraph": {
-        "large-viewport": {
-          "font-size": {
-            "value": "{ogds.typography.font-size.l-md}",
-            "type": "fontSizes"
+    "local": {
+      "utrecht": {
+        "paragraph": {
+          "large-viewport": {
+            "font-size": {
+              "value": "{ogds.typography.font-size.l-md}",
+              "type": "fontSizes"
+            }
           }
         }
-      },
+      }
+    },
+    "utrecht": {
       "paragraph-lead": {
         "large-viewport": {
           "font-size": {
@@ -5495,6 +5579,7 @@
       "local/step-by-step-plan",
       "local/page-header",
       "local/page-card-menu",
+      "local/paragraph",
       "local/tag",
       "large-viewport/paragraph",
       "large-viewport/heading"
