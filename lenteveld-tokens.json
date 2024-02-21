@@ -4982,7 +4982,9 @@
         "font-weight": {
           "value": "{ogds.typography.font-weight.bold}",
           "type": "fontWeights"
-        },
+        }
+      },
+      "step-by-step-plan": {
         "font-size": {
           "value": "{ogds.typography.font-size.l-xs}",
           "type": "fontSizes"
@@ -5119,7 +5121,7 @@
     }
   },
   "local/step-by-step-plan": {
-    "opengemeenten": {
+    "ogds": {
       "step-by-step-plan": {
         "padding-block": {
           "value": "{ogds.space.block.ant}",
@@ -5132,17 +5134,31 @@
         "font-family": {
           "value": "{ogds.typography.font-family.primary}",
           "type": "fontFamilies"
-        }
-      },
-      "datetime": {
-        "font-size": {
-          "value": "{ogds.typography.font-size.sm}",
-          "type": "fontSizes"
-        }
-      }
-    },
-    "og": {
-      "step-by-step-plan": {
+        },
+        "heading": {
+          "font-size": {
+            "value": "{ogds.heading-3.font-size}",
+            "type": "fontSizes"
+          },
+          "large-container": {
+            "font-size": {
+              "value": "{ogds.heading-3.large-container.font-size}",
+              "type": "fontSizes"
+            }
+          }
+        },
+        "body": {
+          "font-size": {
+            "value": "{ogds.paragraph.font-size}",
+            "type": "fontSizes"
+          },
+          "large-container": {
+            "font-size": {
+              "value": "{ogds.paragraph.large-container.font-size}",
+              "type": "fontSizes"
+            }
+          }
+        },
         "bullet": {
           "value": "{ogds.color.secondary-color}",
           "type": "color"
@@ -5314,7 +5330,7 @@
           "value": "{ogds.typography.font-size.md}",
           "type": "fontSizes"
         },
-        "large-viewport": {
+        "large-container": {
           "font-size": {
             "value": "{ogds.typography.font-size.l-md}",
             "type": "fontSizes"
@@ -5338,7 +5354,7 @@
           "value": "{ogds.document.font-family}",
           "type": "fontFamilies"
         },
-        "large-viewport": {
+        "large-container": {
           "font-size": {
             "value": "{ogds.typography.font-size.l-lg}",
             "type": "fontSizes"
@@ -5366,7 +5382,7 @@
           "value": "{ogds.document.font-family}",
           "type": "fontFamilies"
         },
-        "large-viewport": {
+        "large-container": {
           "font-size": {
             "value": "{ogds.typography.font-size.l-sm}",
             "type": "fontSizes"
@@ -5429,6 +5445,88 @@
       }
     }
   },
+  "desktop/font": {
+    "ogds": {
+      "paragraph": {
+        "font-size": {
+          "value": "{ogds.typography.font-size.md}",
+          "type": "fontSizes"
+        }
+      },
+      "paragraph-lead": {
+        "font-size": {
+          "value": "{ogds.typography.font-size.lg}",
+          "type": "fontSizes"
+        }
+      },
+      "paragraph-small-print": {
+        "font-size": {
+          "value": "{ogds.typography.font-size.sm}",
+          "type": "fontSizes"
+        }
+      },
+      "typography": {
+        "font-size": {
+          "xs": {
+            "value": "15px",
+            "type": "fontSizes"
+          },
+          "sm": {
+            "value": "16px",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "18px",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "21px",
+            "type": "fontSizes"
+          },
+          "xl": {
+            "value": "24px",
+            "type": "fontSizes"
+          },
+          "2xl": {
+            "value": "30px",
+            "type": "fontSizes"
+          },
+          "3xl": {
+            "value": "40px",
+            "type": "fontSizes"
+          },
+          "4xl": {
+            "value": "48px",
+            "type": "fontSizes"
+          },
+          "l-md": {
+            "value": "18px",
+            "type": "fontSizes"
+          },
+          "l-lg": {
+            "value": "21px",
+            "type": "fontSizes"
+          },
+          "l-xl": {
+            "value": "24px",
+            "type": "fontSizes"
+          },
+          "l-2xl": {
+            "value": "30px",
+            "type": "fontSizes"
+          },
+          "l-3xl": {
+            "value": "40px",
+            "type": "fontSizes"
+          },
+          "l-4xl": {
+            "value": "48px",
+            "type": "fontSizes"
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -5482,7 +5580,8 @@
       "local/page-header",
       "local/page-card-menu",
       "local/paragraph",
-      "local/tag"
+      "local/tag",
+      "desktop/font"
     ]
   }
 }
