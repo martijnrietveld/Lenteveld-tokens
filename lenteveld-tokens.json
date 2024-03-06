@@ -689,7 +689,7 @@
           "type": "color"
         },
         "color": {
-          "value": "{ogds.color.black}",
+          "value": "{ogds.color.primary-color}",
           "type": "color"
         },
         "inverse": {
@@ -5302,6 +5302,16 @@
           "font-size": {
             "value": "{ogds.typography.font-size.md}",
             "type": "fontSizes"
+          }
+        }
+      },
+      "spotlight": {
+        "color": {
+          "value": "{ogds.color.primary-color}",
+          "type": "color",
+          "secundary": {
+            "value": "{ogds.color.secondary-color}",
+            "type": "color"
           }
         }
       }
