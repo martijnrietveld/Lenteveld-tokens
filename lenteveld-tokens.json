@@ -428,6 +428,14 @@
           "value": "#ffffff",
           "type": "color"
         },
+        "background-color": {
+          "value": "#edefed",
+          "type": "color"
+        },
+        "interaction-color": {
+          "value": "#edeff0",
+          "type": "color"
+        },
         "black": {
           "value": "#333333",
           "type": "color"
@@ -468,21 +476,31 @@
           "value": "#f09c0a",
           "type": "color"
         },
-        "contrast-color-light": {
-          "value": "#47D2B6",
+        "contrast-color-dark": {
+          "value": "#2DB89C",
           "type": "color"
         },
         "contrast-color": {
           "value": "#32CDAE",
           "type": "color"
         },
-        "contrast-color-dark": {
-          "value": "#2DB89C",
+        "contrast-color-light": {
+          "value": "#47D2B6",
           "type": "color"
         },
-        "background-color": {
-          "value": "#edefed",
-          "type": "color"
+        "status": {
+          "red-color": {
+            "value": "#E03724",
+            "type": "color"
+          },
+          "red-color-dark": {
+            "value": "#CD2F1D",
+            "type": "color"
+          },
+          "red-color-light": {
+            "value": "#FCEFED",
+            "type": "color"
+          }
         },
         "gray": {
           "50": {
@@ -574,30 +592,6 @@
           "100": {
             "value": "rebeccapurple",
             "type": "other"
-          }
-        },
-        "light": {
-          "alpha": {
-            "50": {
-              "value": "#ffffff0d",
-              "type": "color"
-            },
-            "100": {
-              "value": "#ffffff1a",
-              "type": "color"
-            }
-          }
-        },
-        "dark": {
-          "alpha": {
-            "50": {
-              "value": "#0000000d",
-              "type": "color"
-            },
-            "100": {
-              "value": "#0000001a",
-              "type": "color"
-            }
           }
         }
       },
@@ -5230,7 +5224,7 @@
             "type": "fontWeights"
           },
           "line-height": {
-            "value": "{ogds.typography.line-height.sm}",
+            "value": "{ogds.heading-3.line-height}",
             "type": "lineHeights"
           },
           "font-size": {
