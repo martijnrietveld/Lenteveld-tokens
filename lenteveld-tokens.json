@@ -484,6 +484,42 @@
           "red-color-light": {
             "value": "#FCEFED",
             "type": "color"
+          },
+          "orange-color": {
+            "value": "#FF7300",
+            "type": "color"
+          },
+          "orange-color-dark": {
+            "value": "#E66700",
+            "type": "color"
+          },
+          "orange-color-light": {
+            "value": "#FFF4EB",
+            "type": "color"
+          },
+          "blue-color": {
+            "value": "#005E99",
+            "type": "color"
+          },
+          "blue-color-dark": {
+            "value": "#004F80",
+            "type": "color"
+          },
+          "blue-color-light": {
+            "value": "#EBF7FF",
+            "type": "color"
+          },
+          "green-color": {
+            "value": "#007A4B",
+            "type": "color"
+          },
+          "green-color-dark": {
+            "value": "#00613C",
+            "type": "color"
+          },
+          "green-color-light": {
+            "value": "#EBF5F1",
+            "type": "color"
           }
         },
         "gray": {
