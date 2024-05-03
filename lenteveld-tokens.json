@@ -539,6 +539,10 @@
               "type": "color"
             }
           }
+        },
+        "border-color": {
+          "value": "#edefed",
+          "type": "color"
         }
       },
       "size": {
