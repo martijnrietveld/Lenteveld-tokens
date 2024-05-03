@@ -585,6 +585,14 @@
             "value": "rebeccapurple",
             "type": "other"
           }
+        },
+        "dark": {
+          "alpha": {
+            "100": {
+              "value": "#0000001a",
+              "type": "color"
+            }
+          }
         }
       },
       "size": {
