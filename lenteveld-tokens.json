@@ -1031,9 +1031,8 @@
       }
     }
   },
-
-  "local/accordeon": {},
-  "local/breadcrumb": {
+  "components/accordeon": {},
+  "components/breadcrumb": {
     "utrecht": {
       "breadcrumb": {
         "line-height": {
@@ -1145,7 +1144,7 @@
       }
     }
   },
-  "local/datetime": {
+  "components/datetime": {
     "ogds": {
       "datetime": {
         "column-gap": {
@@ -1165,7 +1164,7 @@
       }
     }
   },
-  "local/footer": {
+  "components/footer": {
     "og": {
       "footer": {
         "background": {
@@ -1177,7 +1176,7 @@
       }
     }
   },
-  "local/heading": {
+  "components/heading": {
     "ogds": {
       "heading-1": {
         "color": {
@@ -1293,7 +1292,7 @@
       }
     }
   },
-  "local/step-by-step-plan": {
+  "components/step-by-step-plan": {
     "ogds": {
       "step-by-step-plan": {
         "padding-block": {
@@ -1339,7 +1338,7 @@
       }
     }
   },
-  "local/page-header": {
+  "components/page-header": {
     "og": {
       "header": {
         "menu": {
@@ -1390,7 +1389,7 @@
       }
     }
   },
-  "local/page-card-menu": {
+  "components/page-card-menu": {
     "ogds": {
       "page-card": {
         "heading": {
@@ -1490,7 +1489,7 @@
       }
     }
   },
-  "local/paragraph": {
+  "components/paragraph": {
     "ogds": {
       "paragraph": {
         "color": {
@@ -1578,7 +1577,7 @@
       }
     }
   },
-  "local/tag": {
+  "components/tag": {
     "ogds": {
       "tag": {
         "padding-inline": {
@@ -1633,16 +1632,16 @@
     "tokenSetOrder": [
       "brand",
       "common",
-      "local/accordeon",
-      "local/breadcrumb",
-      "local/datetime",
-      "local/footer",
-      "local/heading",
-      "local/step-by-step-plan",
-      "local/page-header",
-      "local/page-card-menu",
-      "local/paragraph",
-      "local/tag"
+      "components/accordeon",
+      "components/breadcrumb",
+      "components/datetime",
+      "components/footer",
+      "components/heading",
+      "components/step-by-step-plan",
+      "components/page-header",
+      "components/page-card-menu",
+      "components/paragraph",
+      "components/tag"
     ]
   }
 }
