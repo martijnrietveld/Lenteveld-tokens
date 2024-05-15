@@ -740,14 +740,6 @@
         }
       },
       "focus": {
-        "outline-offset": {
-          "value": "0",
-          "type": "other"
-        },
-        "outline-style": {
-          "value": "dotted",
-          "type": "other"
-        },
         "outline-width": {
           "value": "{ogds.border-width.md}",
           "type": "borderWidth"
@@ -970,6 +962,144 @@
         "font-weight": {
           "value": "{ogds.document.font-weight}",
           "type": "fontWeights"
+        }
+      }
+    }
+  },
+  "components/button": {
+    "ogds": {
+      "datetime": {
+        "column-gap": {
+          "value": "{ogds.space.block.ant}",
+          "type": "spacing"
+        }
+      },
+      "button": {
+        "border-radius": {
+          "value": "{ogds.border-radius.sm}",
+          "type": "borderRadius"
+        },
+        "font-family": {
+          "value": "{ogds.typography.font-family.primary}",
+          "type": "fontFamilies"
+        },
+        "font-size": {
+          "value": "{ogds.typography.font-size.label-l}",
+          "type": "fontSizes"
+        },
+        "font-weight": {
+          "value": "{ogds.document.strong.font-weight}",
+          "type": "fontWeights"
+        },
+        "primary": {
+          "background-color": {
+            "value": "{ogds.color.primary-color}",
+            "type": "color"
+          },
+          "hover": {
+            "background-color": {
+              "value": "{ogds.color.primary-color-dark}",
+              "type": "color"
+            }
+          },
+          "focus": {
+            "background-color": {
+              "value": "{ogds.color.primary-color-dark}",
+              "type": "color"
+            }
+          },
+          "color": {
+            "value": "{ogds.color.white}",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "background-color": {
+            "value": "{ogds.color.secondary-color}",
+            "type": "color"
+          },
+          "hover": {
+            "background-color": {
+              "value": "{ogds.color.secondary-color-dark}",
+              "type": "color"
+            }
+          },
+          "focus": {
+            "background-color": {
+              "value": "{ogds.color.secondary-color-dark}",
+              "type": "color"
+            }
+          },
+          "color": {
+            "value": "{ogds.color.white}",
+            "type": "color"
+          }
+        },
+        "open": {
+          "background-color": {
+            "value": "{ogds.color.white}",
+            "type": "color"
+          },
+          "hover": {
+            "background-color": {
+              "value": "{ogds.color.interaction-color}",
+              "type": "color"
+            }
+          },
+          "focus": {
+            "background-color": {
+              "value": "{ogds.color.interaction-color}",
+              "type": "color"
+            }
+          },
+          "color": {
+            "value": "{ogds.color.primary-color}",
+            "type": "color"
+          }
+        },
+        "inverted": {
+          "background-color": {
+            "value": "{ogds.color.white}",
+            "type": "color"
+          },
+          "hover": {
+            "background-color": {
+              "value": "{ogds.color.interaction-color}",
+              "type": "color"
+            }
+          },
+          "focus": {
+            "background-color": {
+              "value": "{ogds.color.interaction-color}",
+              "type": "color"
+            }
+          },
+          "color": {
+            "value": "{ogds.color.black}",
+            "type": "color"
+          }
+        },
+        "subtle": {
+          "background-color": {
+            "value": "{ogds.color.white}",
+            "type": "color"
+          },
+          "hover": {
+            "background-color": {
+              "value": "{ogds.color.interaction-color}",
+              "type": "color"
+            }
+          },
+          "focus": {
+            "background-color": {
+              "value": "{ogds.color.interaction-color}",
+              "type": "color"
+            }
+          },
+          "color": {
+            "value": "{ogds.color.primary-color}",
+            "type": "color"
+          }
         }
       }
     }
@@ -1464,6 +1594,7 @@
       "common",
       "components/accordeon",
       "components/breadcrumb",
+      "components/button",
       "components/datetime",
       "components/footer",
       "components/heading",
