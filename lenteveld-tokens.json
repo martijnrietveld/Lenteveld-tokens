@@ -412,28 +412,36 @@
           "value": "#ffffff",
           "type": "color"
         },
-        "background-color": {
-          "value": "#edefed",
-          "type": "color"
-        },
         "interaction-color": {
           "value": "#edeff0",
+          "type": "color"
+        },
+        "background-color": {
+          "value": "#edefed",
           "type": "color"
         },
         "black": {
           "value": "#333333",
           "type": "color"
         },
-        "primary-color-light": {
-          "value": "#034fa0",
-          "type": "color"
-        },
         "primary-color": {
           "value": "#034387",
           "type": "color"
         },
+        "primary-color-light": {
+          "value": "#034fa0",
+          "type": "color"
+        },
+        "primary-color-lightest": {
+          "value": "#0468D2",
+          "type": "color"
+        },
         "primary-color-dark": {
           "value": "#02366e",
+          "type": "color"
+        },
+        "primary-color-darkest": {
+          "value": "#022A55",
           "type": "color"
         },
         "secondary-color-light": {
@@ -522,52 +530,6 @@
             "type": "color"
           }
         },
-        "gray": {
-          "50": {
-            "value": "#f5f6f8",
-            "type": "color"
-          },
-          "100": {
-            "value": "#ebeef1",
-            "type": "color"
-          },
-          "200": {
-            "value": "#cfd5dd",
-            "type": "color"
-          },
-          "300": {
-            "value": "#b4bdc9",
-            "type": "color"
-          },
-          "400": {
-            "value": "#99a5b6",
-            "type": "color"
-          },
-          "500": {
-            "value": "#7a8aa0",
-            "type": "color"
-          },
-          "600": {
-            "value": "#586c88",
-            "type": "color"
-          },
-          "700": {
-            "value": "#435979",
-            "type": "color"
-          },
-          "800": {
-            "value": "#344c6e",
-            "type": "color"
-          },
-          "900": {
-            "value": "#223c61",
-            "type": "color"
-          },
-          "950": {
-            "value": "#001e49",
-            "type": "color"
-          }
-        },
         "dark": {
           "alpha": {
             "100": {
@@ -578,6 +540,10 @@
         },
         "border-color": {
           "value": "#edefed",
+          "type": "color"
+        },
+        "container-color": {
+          "value": "#f4f2f1",
           "type": "color"
         }
       },
