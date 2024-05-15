@@ -830,6 +830,34 @@
           "value": "{ogds.color.background-color}",
           "type": "color"
         }
+      },
+      "text": {
+        "color": {
+          "value": "{ogds.color.black}",
+          "type": "color"
+        },
+        "link-color": {
+          "value": "{ogds.color.primary-color}",
+          "type": "color"
+        },
+        "link-color-hover": {
+          "value": "{ogds.color.primary-color-dark}",
+          "type": "color"
+        },
+        "color-placeholder": {
+          "value": "#696969",
+          "type": "color"
+        },
+        "link-color-disabled": {
+          "value": "#757575",
+          "type": "color"
+        }
+      },
+      "other": {
+        "interaction-color": {
+          "value": "{ogds.color.interaction-color}",
+          "type": "color"
+        }
       }
     }
   },
