@@ -444,40 +444,64 @@
           "value": "#022A55",
           "type": "color"
         },
+        "secondary-color": {
+          "value": "#00801e",
+          "type": "color"
+        },
         "secondary-color-light": {
           "value": "#009924",
           "type": "color"
         },
-        "secondary-color": {
-          "value": "#00801e",
+        "secondary-color-lightest": {
+          "value": "#00CC30",
           "type": "color"
         },
         "secondary-color-dark": {
           "value": "#006618",
           "type": "color"
         },
-        "support-color-light": {
-          "value": "#f8ba4f",
+        "secondary-color-darkest": {
+          "value": "#004D12",
           "type": "color"
         },
         "support-color": {
           "value": "#f6a61e",
           "type": "color"
         },
-        "support-color-dark": {
-          "value": "#f09c0a",
+        "support-color-light": {
+          "value": "#f8ba4f",
           "type": "color"
         },
-        "contrast-color-dark": {
-          "value": "#2DB89C",
+        "support-color-lightest": {
+          "value": "#FACD80",
+          "type": "color"
+        },
+        "support-color-dark": {
+          "value": "#F6A61E",
+          "type": "color"
+        },
+        "support-color-darkest": {
+          "value": "#F09C0A",
           "type": "color"
         },
         "contrast-color": {
-          "value": "#32CDAE",
+          "value": "#E04F38",
           "type": "color"
         },
         "contrast-color-light": {
-          "value": "#47D2B6",
+          "value": "#E77665",
+          "type": "color"
+        },
+        "contrast-color-lightest": {
+          "value": "#EA8A7B",
+          "type": "color"
+        },
+        "contrast-color-dark": {
+          "value": "#DC3B23",
+          "type": "color"
+        },
+        "contrast-color-darkest": {
+          "value": "#C7351F",
           "type": "color"
         },
         "status": {
