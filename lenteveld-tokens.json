@@ -681,7 +681,7 @@
           "type": "color"
         },
         "color": {
-          "value": "{ogds.color.primary-color}",
+          "value": "{ogds.color.black}",
           "type": "color"
         },
         "font-size": {
