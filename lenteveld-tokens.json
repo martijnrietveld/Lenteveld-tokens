@@ -715,7 +715,7 @@
       },
       "heading": {
         "color": {
-          "value": "{ogds.color.primary-color}",
+          "value": "#e65dff",
           "type": "color"
         },
         "font-weight": {
@@ -988,7 +988,7 @@
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{ogds.document.strong.font-weight}",
+          "value": "{ogds.typography.font-weight.bold}",
           "type": "fontWeights"
         },
         "primary": {
