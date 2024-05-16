@@ -1252,48 +1252,34 @@
       }
     }
   },
-  "components/step-by-step-plan": {
+  "components/ordered-list": {
     "ogds": {
-      "step-by-step-plan": {
-        "padding-block": {
-          "value": "{ogds.space.block.ant}",
-          "type": "spacing"
+      "ordered-list": {
+        "color": {
+          "value": "{ogds.document.color}",
+          "type": "color"
         },
-        "padding-block-end": {
-          "value": "{ogds.space.block.mouse}",
-          "type": "spacing"
-        },
-        "font-family": {
-          "value": "{ogds.typography.font-family.primary}",
+        "font-familiy": {
+          "value": "{ogds.document.font-family}",
           "type": "fontFamilies"
         },
-        "heading": {
+        "font-size": {
+          "value": "{ogds.document.font-size.small}",
+          "type": "fontSizes"
+        },
+        "large-viewport": {
           "font-size": {
-            "value": "{ogds.heading-3.font-size}",
+            "value": "{ogds.document.font-size.large}",
             "type": "fontSizes"
-          },
-          "large-container": {
-            "font-size": {
-              "value": "{ogds.heading-3.large-container.font-size}",
-              "type": "fontSizes"
-            }
           }
         },
-        "body": {
-          "font-size": {
-            "value": "{ogds.paragraph.font-size}",
-            "type": "fontSizes"
-          },
-          "large-container": {
-            "font-size": {
-              "value": "{ogds.paragraph.large-container.font-size}",
-              "type": "fontSizes"
-            }
-          }
+        "font-weight": {
+          "value": "{ogds.document.font-weight}",
+          "type": "fontWeights"
         },
-        "bullet": {
-          "value": "{ogds.color.secondary-color}",
-          "type": "color"
+        "line-height": {
+          "value": "{ogds.document.line-height}",
+          "type": "lineHeights"
         }
       }
     }
@@ -1537,6 +1523,52 @@
       }
     }
   },
+  "components/step-by-step-plan": {
+    "ogds": {
+      "step-by-step-plan": {
+        "padding-block": {
+          "value": "{ogds.space.block.ant}",
+          "type": "spacing"
+        },
+        "padding-block-end": {
+          "value": "{ogds.space.block.mouse}",
+          "type": "spacing"
+        },
+        "font-family": {
+          "value": "{ogds.typography.font-family.primary}",
+          "type": "fontFamilies"
+        },
+        "heading": {
+          "font-size": {
+            "value": "{ogds.heading-3.font-size}",
+            "type": "fontSizes"
+          },
+          "large-container": {
+            "font-size": {
+              "value": "{ogds.heading-3.large-container.font-size}",
+              "type": "fontSizes"
+            }
+          }
+        },
+        "body": {
+          "font-size": {
+            "value": "{ogds.paragraph.font-size}",
+            "type": "fontSizes"
+          },
+          "large-container": {
+            "font-size": {
+              "value": "{ogds.paragraph.large-container.font-size}",
+              "type": "fontSizes"
+            }
+          }
+        },
+        "bullet": {
+          "value": "{ogds.color.secondary-color}",
+          "type": "color"
+        }
+      }
+    }
+  },
   "components/tag": {
     "ogds": {
       "tag": {
@@ -1598,10 +1630,11 @@
       "components/datetime",
       "components/footer",
       "components/heading",
-      "components/step-by-step-plan",
+      "components/ordered-list",
       "components/page-header",
       "components/page-card-menu",
       "components/paragraph",
+      "components/step-by-step-plan",
       "components/tag"
     ]
   }
