@@ -1280,6 +1280,20 @@
         "line-height": {
           "value": "{ogds.document.line-height}",
           "type": "lineHeights"
+        },
+        "padding-inline-start": {
+          "value": "{ogds.space.inline.rabbit}",
+          "type": "spacing"
+        },
+        "item": {
+          "margin-block-end": {
+            "value": "{ogds.space.block.ant}",
+            "type": "spacing"
+          },
+          "margin-block-start": {
+            "value": "{ogds.space.block.ant}",
+            "type": "spacing"
+          }
         }
       }
     }
@@ -1569,6 +1583,62 @@
       }
     }
   },
+  "components/unordered-list": {
+    "ogds": {
+      "unordered-list": {
+        "color": {
+          "value": "{ogds.document.color}",
+          "type": "color"
+        },
+        "font-familiy": {
+          "value": "{ogds.document.font-family}",
+          "type": "fontFamilies"
+        },
+        "font-size": {
+          "value": "{ogds.document.font-size.small}",
+          "type": "fontSizes"
+        },
+        "large-viewport": {
+          "font-size": {
+            "value": "{ogds.document.font-size.large}",
+            "type": "fontSizes"
+          }
+        },
+        "font-weight": {
+          "value": "{ogds.document.font-weight}",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{ogds.document.line-height}",
+          "type": "lineHeights"
+        },
+        "padding-inline-start": {
+          "value": "{ogds.space.inline.rabbit}",
+          "type": "spacing"
+        },
+        "item": {
+          "margin-block-end": {
+            "value": "{ogds.space.block.ant}",
+            "type": "spacing"
+          },
+          "margin-block-start": {
+            "value": "{ogds.space.block.ant}",
+            "type": "spacing"
+          }
+        },
+        "marker": {
+          "color": {
+            "value": "{ogds.document.color}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "{ogds.document.color}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
   "components/tag": {
     "ogds": {
       "tag": {
@@ -1635,6 +1705,7 @@
       "components/page-card-menu",
       "components/paragraph",
       "components/step-by-step-plan",
+      "components/unordered-list",
       "components/tag"
     ]
   }
