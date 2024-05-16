@@ -1496,15 +1496,15 @@
           "value": "{ogds.document.font-family}",
           "type": "fontFamilies"
         },
+        "font-size": {
+          "value": "{ogds.typography.font-size.h3-s}",
+          "type": "fontSizes"
+        },
         "large-container": {
           "font-size": {
             "value": "{ogds.typography.font-size.h3-l}",
             "type": "fontSizes"
           }
-        },
-        "font-size": {
-          "value": "{ogds.typography.font-size.h3-s}",
-          "type": "fontSizes"
         }
       },
       "paragraph-small-print": {
