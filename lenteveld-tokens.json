@@ -715,7 +715,7 @@
       },
       "heading": {
         "color": {
-          "value": "#e65dff",
+          "value": "{ogds.color.primary-color}",
           "type": "color"
         },
         "font-weight": {
@@ -1454,7 +1454,7 @@
       "paragraph": {
         "color": {
           "type": "color",
-          "value": "{ogds.color.black}"
+          "value": "{ogds.text.color}"
         },
         "font-weight": {
           "value": "{ogds.document.font-weight}",
@@ -1482,7 +1482,7 @@
       "paragraph-lead": {
         "color": {
           "type": "color",
-          "value": "{ogds.document.color}"
+          "value": "{ogds.text.color}"
         },
         "font-weight": {
           "value": "{ogds.document.font-weight}",
@@ -1510,7 +1510,7 @@
       "paragraph-small-print": {
         "color": {
           "type": "color",
-          "value": "{ogds.document.color}"
+          "value": "{ogds.text.color}"
         },
         "font-weight": {
           "value": "{ogds.document.font-weight}",
