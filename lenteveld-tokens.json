@@ -1315,7 +1315,7 @@
         "y": "2",
         "blur": "4",
         "spread": "0",
-        "color": "{ogds.color.light.alpha.100}",
+        "color": "{ogds.color.dark.alpha.100}",
         "type": "dropShadow"
       },
       "type": "boxShadow"
