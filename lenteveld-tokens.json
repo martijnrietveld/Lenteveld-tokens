@@ -862,8 +862,14 @@
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{ogds.typography.font-size.small-l}",
+          "value": "{ogds.typography.font-size.small-s}",
           "type": "fontSizes"
+        },
+        "large-viewport": {
+          "font-size": {
+            "value": "{ogds.typography.font-size.small-l}",
+            "type": "fontSizes"
+          }
         },
         "link": {
           "icon": {
