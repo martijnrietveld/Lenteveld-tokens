@@ -855,21 +855,21 @@
   },
   "components/accordeon": {},
   "components/breadcrumb": {
-    "utrecht": {
+    "ogds": {
       "breadcrumb": {
         "line-height": {
           "value": "{ogds.document.line-height}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{ogds.document.font-size.large}",
+          "value": "{ogds.typography.font-size.small-l}",
           "type": "fontSizes"
         },
         "link": {
           "icon": {
             "size": {
               "type": "sizing",
-              "value": "{ogds.icon.functional.size}"
+              "value": "{ogds.size.icon.sm}"
             },
             "margin-inline": {
               "value": "{ogds.space.inline.beetle}",
@@ -950,10 +950,6 @@
             "value": "{ogds.document.subtle.color}",
             "type": "color"
           }
-        },
-        "margin-inline": {
-          "value": "{ogds.space.inline.beetle}",
-          "type": "spacing"
         },
         "font-family": {
           "value": "{ogds.document.font-family}",
