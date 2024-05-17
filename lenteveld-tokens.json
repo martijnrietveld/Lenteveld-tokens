@@ -939,7 +939,7 @@
             "value": "{ogds.size.2xs}"
           },
           "color": {
-            "value": "{ogds.link.color}",
+            "value": "{ogds.color.border-color}",
             "type": "color"
           }
         },
