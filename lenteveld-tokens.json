@@ -883,11 +883,11 @@
             }
           },
           "padding-block-end": {
-            "value": "{ogds.space.block.snail}",
+            "value": "{ogds.space.block.beetle}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{ogds.space.block.snail}",
+            "value": "{ogds.space.block.beetle}",
             "type": "spacing"
           },
           "padding-inline-end": {
