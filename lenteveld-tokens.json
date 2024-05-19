@@ -1112,6 +1112,16 @@
       }
     }
   },
+  "components/alert": {
+    "ogds": {
+      "alert": {
+        "border-width": {
+          "value": "2px",
+          "type": "sizing"
+        }
+      }
+    }
+  },
   "components/footer": {
     "og": {
       "footer": {
@@ -1325,7 +1335,7 @@
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{ogds.typography.font-weight.bold}",
+          "value": "{ogds.typography.font-weight.normal}",
           "type": "fontWeights"
         }
       },
@@ -1686,6 +1696,7 @@
       "components/breadcrumb",
       "components/button",
       "components/datetime",
+      "components/alert",
       "components/footer",
       "components/heading",
       "components/ordered-list",
