@@ -920,6 +920,34 @@
             "type": "border"
           }
         },
+        "green": {
+          "background-color": {
+            "value": "{ogds.color.status.green-color-light}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": {
+              "color": "{ogds.alert.icon.green.color}",
+              "width": "{ogds.alert.border-width}",
+              "style": ""
+            },
+            "type": "border"
+          }
+        },
+        "orange": {
+          "background-color": {
+            "value": "{ogds.color.status.orange-color-light}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": {
+              "color": "{ogds.alert.icon.orange.color}",
+              "width": "{ogds.alert.border-width}",
+              "style": ""
+            },
+            "type": "border"
+          }
+        },
         "heading-3": {
           "color": {
             "value": "{ogds.document.color}",
@@ -934,8 +962,20 @@
             }
           },
           "red": {
-            "color-copy": {
+            "color": {
               "value": "{ogds.color.status.red-color}",
+              "type": "color"
+            }
+          },
+          "green": {
+            "color": {
+              "value": "{ogds.color.status.green-color}",
+              "type": "color"
+            }
+          },
+          "orange": {
+            "color": {
+              "value": "{ogds.color.status.orange-color}",
               "type": "color"
             }
           },
