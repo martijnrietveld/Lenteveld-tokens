@@ -1252,7 +1252,7 @@
       "heading-1": {
         "color": {
           "type": "color",
-          "value": "{ogds.heading1.color}"
+          "value": "{ogds.heading.color}"
         },
         "font-family": {
           "value": "{ogds.heading.font-family}",
@@ -1280,7 +1280,7 @@
       "heading-2": {
         "color": {
           "type": "color",
-          "value": "{ogds.heading1.color}"
+          "value": "{ogds.heading.color}"
         },
         "font-family": {
           "value": "{ogds.heading.font-family}",
@@ -1308,7 +1308,7 @@
       "heading-3": {
         "color": {
           "type": "color",
-          "value": "{ogds.heading1.color}"
+          "value": "{ogds.heading.color}"
         },
         "font-family": {
           "value": "{ogds.heading.font-family}",
@@ -1336,7 +1336,7 @@
       "heading-4": {
         "color": {
           "type": "color",
-          "value": "{ogds.heading1.color}"
+          "value": "{ogds.heading.color}"
         },
         "font-family": {
           "value": "{ogds.heading.font-family}",
