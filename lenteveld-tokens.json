@@ -421,7 +421,7 @@
           "type": "color"
         },
         "container-color": {
-          "value": "#f4f2f1",
+          "value": "#ffffff",
           "type": "color"
         },
         "black": {
@@ -1261,10 +1261,6 @@
   "components/follow-up": {
     "ogds": {
       "follow-up": {
-        "border-width": {
-          "value": "{ogds.border-width.md}",
-          "type": "borderWidth"
-        },
         "heading": {
           "font-size": {
             "value": "{ogds.typography.font-size.h3-s}",
@@ -1298,7 +1294,7 @@
           }
         },
         "background-color": {
-          "value": "{ogds.color.white}",
+          "value": "{ogds.color.container-color}",
           "type": "color"
         },
         "border-color": {
@@ -1311,15 +1307,13 @@
         },
         "heading-3": {
           "color": {
-            "value": "{ogds.document.color}",
+            "value": "{ogds.text.color}",
             "type": "color"
           }
         },
-        "icon": {
-          "size": {
-            "value": "{ogds.size.icon.xl}",
-            "type": "sizing"
-          }
+        "border-width": {
+          "value": "{ogds.border-width.md}",
+          "type": "borderWidth"
         }
       }
     }
