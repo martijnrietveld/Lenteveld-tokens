@@ -417,7 +417,7 @@
           "type": "color"
         },
         "border-color": {
-          "value": "#edefed",
+          "value": "#d9d9d9",
           "type": "color"
         },
         "container-color": {
@@ -1297,61 +1297,17 @@
             }
           }
         },
-        "blue": {
-          "background-color": {
-            "value": "{ogds.color.status.blue-color-light}",
-            "type": "color"
-          },
-          "border-color": {
-            "value": {
-              "color": "{ogds.color.status.blue-color}",
-              "width": "{ogds.follow-up.border-width}",
-              "style": ""
-            },
-            "type": "border"
-          }
+        "background-color": {
+          "value": "{ogds.color.white}",
+          "type": "color"
         },
-        "red": {
-          "background-color": {
-            "value": "{ogds.color.status.red-color-light}",
-            "type": "color"
+        "border-color": {
+          "value": {
+            "color": "{ogds.color.border-color}",
+            "width": "{ogds.follow-up.border-width}",
+            "style": ""
           },
-          "border-color": {
-            "value": {
-              "color": "{ogds.color.status.red-color}",
-              "width": "{ogds.follow-up.border-width}",
-              "style": ""
-            },
-            "type": "border"
-          }
-        },
-        "green": {
-          "background-color": {
-            "value": "{ogds.color.status.green-color-light}",
-            "type": "color"
-          },
-          "border-color": {
-            "value": {
-              "color": "{ogds.follow-up.icon.green.color}",
-              "width": "{ogds.follow-up.border-width}",
-              "style": ""
-            },
-            "type": "border"
-          }
-        },
-        "orange": {
-          "background-color": {
-            "value": "{ogds.color.status.orange-color-light}",
-            "type": "color"
-          },
-          "border-color": {
-            "value": {
-              "color": "{ogds.follow-up.icon.orange.color}",
-              "width": "{ogds.follow-up.border-width}",
-              "style": ""
-            },
-            "type": "border"
-          }
+          "type": "border"
         },
         "heading-3": {
           "color": {
@@ -1360,30 +1316,6 @@
           }
         },
         "icon": {
-          "blue": {
-            "color": {
-              "value": "{ogds.color.status.blue-color}",
-              "type": "color"
-            }
-          },
-          "red": {
-            "color": {
-              "value": "{ogds.color.status.red-color}",
-              "type": "color"
-            }
-          },
-          "green": {
-            "color": {
-              "value": "{ogds.color.status.green-color}",
-              "type": "color"
-            }
-          },
-          "orange": {
-            "color": {
-              "value": "{ogds.color.status.orange-color}",
-              "type": "color"
-            }
-          },
           "size": {
             "value": "{ogds.size.icon.xl}",
             "type": "sizing"
