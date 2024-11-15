@@ -454,11 +454,11 @@
             }
           },
           "line-height": {
-            "value": "{ogds.heading-3.line-height}",
+            "value": "{og.heading-3.line-height}",
             "type": "lineHeights"
           },
           "font-family": {
-            "value": "{ogds.heading-2.font-family}",
+            "value": "{og.heading-2.font-family}",
             "type": "fontFamilies"
           }
         },
@@ -847,11 +847,11 @@
             }
           },
           "line-height": {
-            "value": "{ogds.heading-3.line-height}",
+            "value": "{og.heading-3.line-height}",
             "type": "lineHeights"
           },
           "font-family": {
-            "value": "{ogds.heading-2.font-family}",
+            "value": "{og.heading-2.font-family}",
             "type": "fontFamilies"
           }
         },
@@ -897,31 +897,33 @@
     }
   },
   "components/heading": {
-    "ogds": {
+    "og": {
       "heading-1": {
         "color": {
           "type": "color",
           "value": "{og.color.primary-color}"
         },
         "font-family": {
-          "value": "{ogds.heading.font-family}",
+          "value": "{og.typography.font-family.primary}",
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{ogds.heading.font-weight}",
+          "value": "{og.typography.font-weight.bold}",
           "type": "fontWeights"
         },
         "line-height": {
           "value": "{og.typography.line-height.sm}",
           "type": "lineHeights"
         },
-        "font-size": {
-          "value": "{og.typography.font-size.h1-s}",
-          "type": "fontSizes"
-        },
-        "large-container": {
+        "small-vw": {
           "font-size": {
-            "value": "{og.typography.font-size.h1-l}",
+            "value": "{og.typography.small-vw.font-size.h1}",
+            "type": "fontSizes"
+          }
+        },
+        "large-vw": {
+          "font-size": {
+            "value": "{og.typography.large-vw.font-size.h1}",
             "type": "fontSizes"
           }
         }
@@ -932,11 +934,11 @@
           "value": "{og.color.secondary-color}"
         },
         "font-family": {
-          "value": "{ogds.heading.font-family}",
+          "value": "{og.typography.font-family.primary}",
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{ogds.heading.font-weight}",
+          "value": "{og.typography.font-weight.normal}",
           "type": "fontWeights"
         },
         "line-height": {
@@ -960,11 +962,11 @@
           "value": "{og.color.primary-color}"
         },
         "font-family": {
-          "value": "{ogds.heading.font-family}",
+          "value": "{og.typography.font-family.primary}",
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{ogds.heading.font-weight}",
+          "value": "{og.typography.font-weight.bold}",
           "type": "fontWeights"
         },
         "line-height": {
@@ -988,11 +990,11 @@
           "value": "{ogds.heading.1-color}"
         },
         "font-family": {
-          "value": "{ogds.heading.font-family}",
+          "value": "{og.typography.font-family.primary}",
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{ogds.heading.font-weight}",
+          "value": "{og.typography.font-weight.bold}",
           "type": "fontWeights"
         },
         "line-height": {
@@ -1073,7 +1075,7 @@
             "type": "fontWeights"
           },
           "line-height": {
-            "value": "{ogds.heading-3.line-height}",
+            "value": "{og.heading-3.line-height}",
             "type": "lineHeights"
           },
           "font-size": {
@@ -1329,12 +1331,12 @@
         },
         "heading": {
           "font-size": {
-            "value": "{ogds.heading-3.font-size}",
+            "value": "{og.heading-3.font-size}",
             "type": "fontSizes"
           },
           "large-container": {
             "font-size": {
-              "value": "{ogds.heading-3.large-container.font-size}",
+              "value": "{og.heading-3.large-container.font-size}",
               "type": "fontSizes"
             }
           }
