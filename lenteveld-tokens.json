@@ -945,13 +945,15 @@
           "value": "{og.typography.line-height.sm}",
           "type": "lineHeights"
         },
-        "font-size": {
-          "value": "{og.typography.font-size.h2-s}",
-          "type": "fontSizes"
-        },
-        "large-container": {
+        "small-vw": {
           "font-size": {
-            "value": "{og.typography.font-size.h2-l}",
+            "value": "{og.typography.small-vw.font-size.h2}",
+            "type": "fontSizes"
+          }
+        },
+        "large-vw": {
+          "font-size": {
+            "value": "{og.typography.large-vw.font-size.h2}",
             "type": "fontSizes"
           }
         }
@@ -973,13 +975,15 @@
           "value": "{og.typography.line-height.sm}",
           "type": "lineHeights"
         },
-        "font-size": {
-          "value": "{og.typography.font-size.h3-s}",
-          "type": "fontSizes"
-        },
-        "large-container": {
+        "small-vw": {
           "font-size": {
-            "value": "{og.typography.font-size.h3-l}",
+            "value": "{og.typography.small-vw.font-size.h3}",
+            "type": "fontSizes"
+          }
+        },
+        "large-vw": {
+          "font-size": {
+            "value": "{og.typography.large-vw.font-size.h3}",
             "type": "fontSizes"
           }
         }
@@ -987,7 +991,7 @@
       "heading-4": {
         "color": {
           "type": "color",
-          "value": "{ogds.heading.1-color}"
+          "value": "{og.color.primary-color}"
         },
         "font-family": {
           "value": "{og.typography.font-family.primary}",
@@ -1001,13 +1005,15 @@
           "value": "{og.typography.line-height.md}",
           "type": "lineHeights"
         },
-        "font-size": {
-          "value": "{og.typography.font-size.body-s}",
-          "type": "fontSizes"
-        },
-        "large-container": {
+        "small-vw": {
           "font-size": {
-            "value": "{og.typography.font-size.body-l}",
+            "value": "{og.typography.small-vw.font-size.h4}",
+            "type": "fontSizes"
+          }
+        },
+        "large-vw": {
+          "font-size": {
+            "value": "{og.typography.large-vw.font-size.h4}",
             "type": "fontSizes"
           }
         }
