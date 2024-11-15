@@ -1279,6 +1279,18 @@
         "font-family": {
           "value": "{og.typography.font-family.primary}",
           "type": "fontFamilies"
+        },
+        "small-vw": {
+          "font-size": {
+            "value": "{og.typography.small-vw.font-size.intro}",
+            "type": "fontSizes"
+          }
+        },
+        "large-vw": {
+          "font-size": {
+            "value": "{og.typography.large-vw.font-size.intro}",
+            "type": "fontSizes"
+          }
         }
       },
       "paragraph-small-print": {
@@ -1297,6 +1309,18 @@
         "font-family": {
           "value": "{og.typography.font-family.primary}",
           "type": "fontFamilies"
+        },
+        "small-vw": {
+          "font-size": {
+            "value": "{og.typography.small-vw.font-size.sm}",
+            "type": "fontSizes"
+          }
+        },
+        "large-vw": {
+          "font-size": {
+            "value": "{og.typography.large-vw.font-size.sm}",
+            "type": "fontSizes"
+          }
         }
       }
     }
