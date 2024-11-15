@@ -1232,31 +1232,33 @@
     }
   },
   "components/paragraph": {
-    "ogds": {
+    "og": {
       "paragraph": {
         "color": {
           "type": "color",
-          "value": "{ogds.text.color}"
+          "value": "{og.color.black}"
         },
         "font-weight": {
-          "value": "{ogds.document.font-weight}",
+          "value": "{og.typography.font-weight.normal}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{ogds.document.line-height}",
+          "value": "{og.typography.line-height.md}",
           "type": "lineHeights"
         },
         "font-family": {
-          "value": "{ogds.document.font-family}",
+          "value": "{og.typography.font-family.primary}",
           "type": "fontFamilies"
         },
-        "font-size": {
-          "value": "{og.typography.font-size.body-s}",
-          "type": "fontSizes"
-        },
-        "large-container": {
+        "small-vw": {
           "font-size": {
-            "value": "{og.typography.font-size.body-l}",
+            "value": "{og.typography.small-vw.font-size.body}",
+            "type": "fontSizes"
+          }
+        },
+        "large-vw": {
+          "font-size": {
+            "value": "{og.typography.large-vw.font-size.body}",
             "type": "fontSizes"
           }
         }
@@ -1264,57 +1266,37 @@
       "paragraph-lead": {
         "color": {
           "type": "color",
-          "value": "{ogds.text.color}"
+          "value": "{og.color.black}"
         },
         "font-weight": {
-          "value": "{ogds.document.font-weight}",
+          "value": "{og.typography.font-weight.bold}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{ogds.document.line-height}",
+          "value": "{og.typography.line-height.md}",
           "type": "lineHeights"
         },
         "font-family": {
-          "value": "{ogds.document.font-family}",
+          "value": "{og.typography.font-family.primary}",
           "type": "fontFamilies"
-        },
-        "font-size": {
-          "value": "{og.typography.font-size.h3-s}",
-          "type": "fontSizes"
-        },
-        "large-container": {
-          "font-size": {
-            "value": "{og.typography.font-size.h3-l}",
-            "type": "fontSizes"
-          }
         }
       },
       "paragraph-small-print": {
         "color": {
           "type": "color",
-          "value": "{ogds.text.color}"
+          "value": "{og.color.black}"
         },
         "font-weight": {
-          "value": "{ogds.document.font-weight}",
+          "value": "{og.typography.font-weight.normal}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{ogds.document.line-height}",
+          "value": "{og.typography.line-height.md}",
           "type": "lineHeights"
         },
         "font-family": {
-          "value": "{ogds.document.font-family}",
+          "value": "{og.typography.font-family.primary}",
           "type": "fontFamilies"
-        },
-        "large-container": {
-          "font-size": {
-            "value": "{og.typography.font-size.label-l}",
-            "type": "fontSizes"
-          }
-        },
-        "font-size": {
-          "value": "{og.typography.font-size.label-s}",
-          "type": "fontSizes"
         }
       }
     }
