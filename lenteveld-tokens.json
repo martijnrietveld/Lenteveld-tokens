@@ -4,8 +4,14 @@
       "typography": {
         "small-vw": {
           "font-size": {
-            "value": "14px",
-            "type": "fontSizes"
+            "small": {
+              "value": "14px",
+              "type": "fontSizes"
+            },
+            "label": {
+              "value": "15px",
+              "type": "fontSizes"
+            }
           }
         },
         "font-size": {
@@ -570,7 +576,7 @@
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{og.typography.small-vw.font-size}",
+          "value": "{og.typography.small-vw.font-size.small}",
           "type": "fontSizes"
         },
         "large-viewport": {
@@ -1195,7 +1201,7 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{og.typography.small-vw.font-size}",
+          "value": "{og.typography.small-vw.font-size.small}",
           "type": "fontSizes"
         },
         "font-weight": {
