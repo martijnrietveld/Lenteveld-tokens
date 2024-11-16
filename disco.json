@@ -1109,16 +1109,6 @@
     }
   },
   "components/page-header": {
-    "og": {
-      "header": {
-        "menu": {
-          "gap": {
-            "value": "{ogds.space.block.mouse}",
-            "type": "spacing"
-          }
-        }
-      }
-    },
     "Page-header": {
       "value": {
         "x": "0",
