@@ -603,13 +603,7 @@
     }
   },
   "components/button": {
-    "ogds": {
-      "datetime": {
-        "column-gap": {
-          "value": "{ogds.space.block.ant}",
-          "type": "spacing"
-        }
-      },
+    "og": {
       "button": {
         "border-radius": {
           "value": "{og.border-radius.button}",
@@ -620,7 +614,7 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{og.typography.font-size.label-l}",
+          "value": "{og.typography.large-vw.font-size.label}",
           "type": "fontSizes"
         },
         "font-weight": {
