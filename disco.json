@@ -1098,11 +1098,51 @@
   },
   "components/page-footer": {
     "og": {
-      "footer": {
+      "pagefooter": {
         "background": {
           "color": {
             "value": "{og.color.primary-color}",
             "type": "color"
+          }
+        },
+        "color": {
+          "value": "{og.color.white}",
+          "type": "color"
+        },
+        "primary-action": {
+          "color": {
+            "value": "{og.color.white}",
+            "type": "color"
+          }
+        },
+        "inverted": {
+          "background-color": {
+            "value": "{og.color.support-color}",
+            "type": "color"
+          },
+          "color": {
+            "value": "{og.color.black}",
+            "type": "color"
+          },
+          "primary-action": {
+            "color": {
+              "value": "{og.color.black}",
+              "type": "color"
+            }
+          },
+          "footerlink": {
+            "background-color": {
+              "value": "{og.color.background-color}",
+              "type": "color"
+            }
+          }
+        },
+        "footerlink": {
+          "background": {
+            "color": {
+              "value": "{og.color.primary-color-dark}",
+              "type": "color"
+            }
           }
         }
       }
