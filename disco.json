@@ -93,6 +93,16 @@
               "type": "fontSizes"
             }
           }
+        },
+        "line-height": {
+          "sm": {
+            "value": "125%",
+            "type": "lineHeights"
+          },
+          "md": {
+            "value": "150%",
+            "type": "lineHeights"
+          }
         }
       },
       "border-radius": {
@@ -163,9 +173,11 @@
           "value": "#ffffff",
           "type": "color"
         },
-        "interaction-color": {
-          "value": "#edeff0",
-          "type": "color"
+        "hover": {
+          "background-color": {
+            "value": "#e8edf0",
+            "type": "color"
+          }
         },
         "border-color": {
           "value": "#d9d9d9",
@@ -662,13 +674,13 @@
           },
           "hover": {
             "background-color": {
-              "value": "{og.color.interaction-color}",
+              "value": "{og.color.hover.background-color}",
               "type": "color"
             }
           },
           "focus": {
             "background-color": {
-              "value": "{og.color.interaction-color}",
+              "value": "{og.color.hover.background-color}",
               "type": "color"
             }
           },
@@ -684,13 +696,13 @@
           },
           "hover": {
             "background-color": {
-              "value": "{og.color.interaction-color}",
+              "value": "{og.color.hover.background-color}",
               "type": "color"
             }
           },
           "focus": {
             "background-color": {
-              "value": "{og.color.interaction-color}",
+              "value": "{og.color.hover.background-color}",
               "type": "color"
             }
           },
@@ -706,13 +718,13 @@
           },
           "hover": {
             "background-color": {
-              "value": "{og.color.interaction-color}",
+              "value": "{og.color.hover.background-color}",
               "type": "color"
             }
           },
           "focus": {
             "background-color": {
-              "value": "{og.color.interaction-color}",
+              "value": "{og.color.hover.background-color}",
               "type": "color"
             }
           },
