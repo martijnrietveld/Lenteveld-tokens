@@ -140,7 +140,7 @@
             "y": "2",
             "blur": "6",
             "spread": "0",
-            "color": "{og.color.light.alpha.100}",
+            "color": "{og.color.dark.alpha.100}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -151,7 +151,7 @@
             "y": "8",
             "blur": "16",
             "spread": "0",
-            "color": "{og.color.light.alpha.100}",
+            "color": "{og.color.dark.alpha.100}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -162,7 +162,7 @@
             "y": "16",
             "blur": "48",
             "spread": "0",
-            "color": "{og.color.light.alpha.100}",
+            "color": "{og.color.dark.alpha.100}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -356,7 +356,7 @@
         "dark": {
           "alpha": {
             "100": {
-              "value": "#0000001a",
+              "value": "rgba(0,0,0,0.24)",
               "type": "color"
             }
           }
