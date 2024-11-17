@@ -812,7 +812,11 @@
         "border-width": {
           "value": "{og.border-width.md}",
           "type": "borderWidth"
-        },
+        }
+      }
+    },
+    "og": {
+      "follow-up": {
         "border-radius": {
           "value": "{og.border-radius.card}",
           "type": "borderRadius"
