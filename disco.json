@@ -38,16 +38,6 @@
             }
           }
         },
-        "line-height": {
-          "sm": {
-            "value": "125%",
-            "type": "lineHeights"
-          },
-          "md": {
-            "value": "150%",
-            "type": "lineHeights"
-          }
-        },
         "font-weight": {
           "normal": {
             "value": "Regular",
