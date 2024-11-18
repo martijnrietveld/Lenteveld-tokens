@@ -1287,7 +1287,50 @@
       }
     }
   },
-  "components/spotlight": {},
+  "components/spotlight": {
+    "og": {
+      "spotlight": {
+        "background-color": {
+          "value": "{og.color.container-color}",
+          "type": "color"
+        },
+        "grey": {
+          "background-color": {
+            "value": "{og.color.grey-color}",
+            "type": "color"
+          }
+        },
+        "primary": {
+          "background-color": {
+            "value": "{og.color.primary-color}",
+            "type": "color"
+          }
+        },
+        "secundary": {
+          "background-color": {
+            "value": "{og.color.secondary-color}",
+            "type": "color"
+          }
+        },
+        "support": {
+          "background-color": {
+            "value": "{og.color.support-color}",
+            "type": "color"
+          }
+        },
+        "inverted": {
+          "color": {
+            "value": "{og.color.white}",
+            "type": "color"
+          }
+        },
+        "border-radius": {
+          "value": "{og.border-radius.spotlight}",
+          "type": "borderRadius"
+        }
+      }
+    }
+  },
   "components/step-by-step-plan": {
     "ogds": {
       "step-by-step-plan": {
