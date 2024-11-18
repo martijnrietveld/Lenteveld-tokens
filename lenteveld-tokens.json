@@ -50,7 +50,7 @@
         },
         "font-family": {
           "primary": {
-            "value": "Comic Sans MS",
+            "value": "Inter, Tahoma, Verdana, sans-serif",
             "type": "fontFamilies"
           },
           "secondary": {
@@ -212,7 +212,7 @@
           "type": "color"
         },
         "secondary-color": {
-          "value": "#00ff3c",
+          "value": "#00801e",
           "type": "color"
         },
         "secondary-color-light": {
