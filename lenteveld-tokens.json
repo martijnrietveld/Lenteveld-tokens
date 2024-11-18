@@ -38,16 +38,6 @@
             }
           }
         },
-        "line-height": {
-          "sm": {
-            "value": "125%",
-            "type": "lineHeights"
-          },
-          "md": {
-            "value": "150%",
-            "type": "lineHeights"
-          }
-        },
         "font-weight": {
           "normal": {
             "value": "Regular",
@@ -60,7 +50,7 @@
         },
         "font-family": {
           "primary": {
-            "value": "Inter, Tahoma, Verdana, sans-serif",
+            "value": "Comic Sans MS",
             "type": "fontFamilies"
           },
           "secondary": {
@@ -103,6 +93,16 @@
               "type": "fontSizes"
             }
           }
+        },
+        "line-height": {
+          "sm": {
+            "value": "125%",
+            "type": "lineHeights"
+          },
+          "md": {
+            "value": "150%",
+            "type": "lineHeights"
+          }
         }
       },
       "border-radius": {
@@ -140,7 +140,7 @@
             "y": "2",
             "blur": "6",
             "spread": "0",
-            "color": "{og.color.light.alpha.100}",
+            "color": "{og.color.dark.alpha.100}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -151,7 +151,7 @@
             "y": "8",
             "blur": "16",
             "spread": "0",
-            "color": "{og.color.light.alpha.100}",
+            "color": "{og.color.dark.alpha.100}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -162,7 +162,7 @@
             "y": "16",
             "blur": "48",
             "spread": "0",
-            "color": "{og.color.light.alpha.100}",
+            "color": "{og.color.dark.alpha.100}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -173,9 +173,11 @@
           "value": "#ffffff",
           "type": "color"
         },
-        "interaction-color": {
-          "value": "#edeff0",
-          "type": "color"
+        "hover": {
+          "background-color": {
+            "value": "#e8edf0",
+            "type": "color"
+          }
         },
         "border-color": {
           "value": "#d9d9d9",
@@ -190,7 +192,7 @@
           "type": "color"
         },
         "primary-color": {
-          "value": "#034387",
+          "value": "#014387",
           "type": "color"
         },
         "primary-color-light": {
@@ -210,7 +212,7 @@
           "type": "color"
         },
         "secondary-color": {
-          "value": "#00801e",
+          "value": "#00ff3c",
           "type": "color"
         },
         "secondary-color-light": {
@@ -354,81 +356,9 @@
         "dark": {
           "alpha": {
             "100": {
-              "value": "#0000001a",
+              "value": "rgba(0,0,0,0.24)",
               "type": "color"
             }
-          }
-        }
-      },
-      "size": {
-        "5xs": {
-          "value": "2px",
-          "type": "sizing"
-        },
-        "4xs": {
-          "value": "4px",
-          "type": "sizing"
-        },
-        "3xs": {
-          "value": "8px",
-          "type": "sizing"
-        },
-        "2xs": {
-          "value": "16px",
-          "type": "sizing"
-        },
-        "xs": {
-          "value": "24px",
-          "type": "sizing"
-        },
-        "sm": {
-          "value": "32px",
-          "type": "sizing"
-        },
-        "md": {
-          "value": "48px",
-          "type": "sizing"
-        },
-        "lg": {
-          "value": "64px",
-          "type": "sizing"
-        },
-        "xl": {
-          "value": "96px",
-          "type": "sizing"
-        },
-        "2xl": {
-          "value": "160px",
-          "type": "sizing"
-        },
-        "icon": {
-          "sm": {
-            "value": "20px",
-            "type": "sizing"
-          },
-          "md": {
-            "value": "24px",
-            "type": "sizing"
-          },
-          "lg": {
-            "value": "28px",
-            "type": "sizing"
-          },
-          "xl": {
-            "value": "32px",
-            "type": "sizing"
-          },
-          "2xl": {
-            "value": "36px",
-            "type": "sizing"
-          },
-          "3xl": {
-            "value": "40px",
-            "type": "sizing"
-          },
-          "4xl": {
-            "value": "48px",
-            "type": "sizing"
           }
         }
       }
@@ -675,13 +605,7 @@
     }
   },
   "components/button": {
-    "ogds": {
-      "datetime": {
-        "column-gap": {
-          "value": "{ogds.space.block.ant}",
-          "type": "spacing"
-        }
-      },
+    "og": {
       "button": {
         "border-radius": {
           "value": "{og.border-radius.button}",
@@ -692,7 +616,7 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{og.typography.font-size.label-l}",
+          "value": "{og.typography.large-vw.font-size.label}",
           "type": "fontSizes"
         },
         "font-weight": {
@@ -750,13 +674,13 @@
           },
           "hover": {
             "background-color": {
-              "value": "{og.color.interaction-color}",
+              "value": "{og.color.hover.background-color}",
               "type": "color"
             }
           },
           "focus": {
             "background-color": {
-              "value": "{og.color.interaction-color}",
+              "value": "{og.color.hover.background-color}",
               "type": "color"
             }
           },
@@ -772,13 +696,13 @@
           },
           "hover": {
             "background-color": {
-              "value": "{og.color.interaction-color}",
+              "value": "{og.color.hover.background-color}",
               "type": "color"
             }
           },
           "focus": {
             "background-color": {
-              "value": "{og.color.interaction-color}",
+              "value": "{og.color.hover.background-color}",
               "type": "color"
             }
           },
@@ -794,13 +718,13 @@
           },
           "hover": {
             "background-color": {
-              "value": "{og.color.interaction-color}",
+              "value": "{og.color.hover.background-color}",
               "type": "color"
             }
           },
           "focus": {
             "background-color": {
-              "value": "{og.color.interaction-color}",
+              "value": "{og.color.hover.background-color}",
               "type": "color"
             }
           },
@@ -888,7 +812,11 @@
         "border-width": {
           "value": "{og.border-width.md}",
           "type": "borderWidth"
-        },
+        }
+      }
+    },
+    "og": {
+      "follow-up": {
         "border-radius": {
           "value": "{og.border-radius.card}",
           "type": "borderRadius"
@@ -1170,27 +1098,57 @@
   },
   "components/page-footer": {
     "og": {
-      "footer": {
+      "pagefooter": {
         "background": {
           "color": {
             "value": "{og.color.primary-color}",
             "type": "color"
+          }
+        },
+        "color": {
+          "value": "{og.color.white}",
+          "type": "color"
+        },
+        "primary-action": {
+          "color": {
+            "value": "{og.color.white}",
+            "type": "color"
+          }
+        },
+        "inverted": {
+          "background-color": {
+            "value": "{og.color.support-color}",
+            "type": "color"
+          },
+          "color": {
+            "value": "{og.color.black}",
+            "type": "color"
+          },
+          "primary-action": {
+            "color": {
+              "value": "{og.color.black}",
+              "type": "color"
+            }
+          },
+          "footerlink": {
+            "background-color": {
+              "value": "{og.color.background-color}",
+              "type": "color"
+            }
+          }
+        },
+        "footerlink": {
+          "background": {
+            "color": {
+              "value": "{og.color.primary-color-dark}",
+              "type": "color"
+            }
           }
         }
       }
     }
   },
   "components/page-header": {
-    "og": {
-      "header": {
-        "menu": {
-          "gap": {
-            "value": "{ogds.space.block.mouse}",
-            "type": "spacing"
-          }
-        }
-      }
-    },
     "Page-header": {
       "value": {
         "x": "0",
