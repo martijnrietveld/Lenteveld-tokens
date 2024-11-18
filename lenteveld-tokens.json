@@ -1109,30 +1109,86 @@
           "value": "{og.color.white}",
           "type": "color"
         },
-        "primary-action": {
+        "link": {
           "color": {
             "value": "{og.color.white}",
             "type": "color"
+          },
+          "font-family": {
+            "value": "{og.typography.font-family.primary}",
+            "type": "fontFamilies"
+          },
+          "small-vw": {
+            "font-size": {
+              "value": "{og.paragraph-small-print.large-vw.font-size}",
+              "type": "fontSizes"
+            }
+          },
+          "large-vw": {
+            "font-size": {
+              "value": "{og.paragraph-small-print.large-vw.font-size}",
+              "type": "fontSizes"
+            }
+          },
+          "font-weight": {
+            "value": "{og.paragraph.font-weight}",
+            "type": "fontWeights"
+          },
+          "text-decoration": {
+            "value": "underline",
+            "type": "textDecoration"
+          },
+          "active": {
+            "color": {
+              "value": "{og.color.hover.background-color}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "color": {
+              "value": "{og.color.hover.background-color}",
+              "type": "color"
+            }
+          },
+          "inverted": {
+            "color": {
+              "value": "{og.color.primary-color}",
+              "type": "color"
+            }
           }
         },
         "inverted": {
-          "background-color": {
-            "value": "{og.color.support-color}",
-            "type": "color"
+          "background": {
+            "color": {
+              "value": "{og.color.support-color}",
+              "type": "color"
+            }
           },
           "color": {
             "value": "{og.color.black}",
             "type": "color"
           },
-          "primary-action": {
+          "link": {
             "color": {
-              "value": "{og.color.black}",
+              "value": "{og.color.primary-color}",
               "type": "color"
             }
           },
           "footerlink": {
             "background-color": {
               "value": "{og.color.background-color}",
+              "type": "color"
+            }
+          },
+          "active": {
+            "color": {
+              "value": "{og.color.primary-color-dark}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "color": {
+              "value": "{og.color.primary-color-dark}",
               "type": "color"
             }
           }
