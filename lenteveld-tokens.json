@@ -96,11 +96,11 @@
         },
         "line-height": {
           "sm": {
-            "value": "125%",
+            "value": "130%",
             "type": "lineHeights"
           },
           "md": {
-            "value": "150%",
+            "value": "160%",
             "type": "lineHeights"
           }
         }
