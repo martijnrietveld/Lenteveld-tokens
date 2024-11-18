@@ -275,23 +275,23 @@
           "value": "#C7351F",
           "type": "color"
         },
-        "background-color": {
+        "grey-color": {
           "value": "#edefed",
           "type": "color"
         },
-        "background-color-light": {
+        "grey-color-light": {
           "value": "#fafafa",
           "type": "color"
         },
-        "background-color-lightest": {
+        "grey-color-lightest": {
           "value": "#ffffff",
           "type": "color"
         },
-        "background-color-dark": {
+        "grey-color-dark": {
           "value": "#dfe2df",
           "type": "color"
         },
-        "background-color-darkest": {
+        "grey-color-darkest": {
           "value": "#d1d6d1",
           "type": "color"
         },
@@ -813,7 +813,7 @@
         },
         "heading-3": {
           "color": {
-            "value": "{ogds.text.color}",
+            "value": "{og.color.primary-color}",
             "type": "color"
           }
         },
@@ -824,6 +824,36 @@
         "border-radius": {
           "value": "{og.border-radius.card}",
           "type": "borderRadius"
+        },
+        "grey": {
+          "background-color": {
+            "value": "{og.color.grey-color}",
+            "type": "color"
+          }
+        },
+        "primary": {
+          "background-color": {
+            "value": "{og.color.primary-color}",
+            "type": "color"
+          }
+        },
+        "secundary": {
+          "background-color": {
+            "value": "{og.color.secondary-color}",
+            "type": "color"
+          }
+        },
+        "support": {
+          "background-color": {
+            "value": "{og.color.support-color}",
+            "type": "color"
+          }
+        },
+        "inverted": {
+          "color": {
+            "value": "{og.color.white}",
+            "type": "color"
+          }
         }
       }
     }
@@ -1094,7 +1124,7 @@
           },
           "footerlink": {
             "background-color": {
-              "value": "{og.color.background-color}",
+              "value": "{og.color.grey-color}",
               "type": "color"
             }
           },
