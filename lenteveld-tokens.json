@@ -360,6 +360,10 @@
               "type": "color"
             }
           }
+        },
+        "default-color": {
+          "value": "#757575",
+          "type": "color"
         }
       }
     }
@@ -949,7 +953,44 @@
     }
   },
   "components/highlight-menu": {},
-  "components/link": {},
+  "components/link": {
+    "og": {
+      "link": {
+        "small-vw": {
+          "font-size": {
+            "value": "{og.typography.small-vw.font-size.body}",
+            "type": "fontSizes"
+          }
+        },
+        "large-vw": {
+          "font-size": {
+            "value": "{og.typography.large-vw.font-size.body}",
+            "type": "fontSizes"
+          }
+        },
+        "font-family": {
+          "value": "{og.typography.font-family.primary}",
+          "type": "fontFamilies"
+        },
+        "color": {
+          "value": "{og.color.primary-color}",
+          "type": "color"
+        },
+        "font-weight": {
+          "value": "{og.paragraph.font-weight}",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{og.typography.line-height.md}",
+          "type": "lineHeights"
+        },
+        "text-decoration": {
+          "value": "underline",
+          "type": "textDecoration"
+        }
+      }
+    }
+  },
   "components/ordered-list": {
     "ogds": {
       "ordered-list": {
@@ -996,106 +1037,7 @@
       }
     }
   },
-  "components/page-card-menu": {
-    "ogds": {
-      "page-card": {
-        "heading": {
-          "font-family": {
-            "value": "{ogds.heading.font-family}",
-            "type": "fontFamilies"
-          },
-          "font-weight": {
-            "value": "{ogds.heading.font-weight}",
-            "type": "fontWeights"
-          },
-          "line-height": {
-            "value": "{og.heading-3.line-height}",
-            "type": "lineHeights"
-          },
-          "font-size": {
-            "value": "{ogds.typography.font-size.xl}",
-            "type": "fontSizes"
-          }
-        },
-        "column-gap": {
-          "value": "{ogds.space.column.snail}",
-          "type": "spacing"
-        },
-        "border-width": {
-          "value": "{ogds.form-control.invalid.border-width}",
-          "type": "borderWidth"
-        },
-        "padding-block-end": {
-          "value": "{ogds.space.block.snail}",
-          "type": "spacing"
-        },
-        "padding-block-start": {
-          "value": "{ogds.space.block.snail}",
-          "type": "spacing"
-        },
-        "padding-inline-end": {
-          "value": "{ogds.space.inline.snail}",
-          "type": "spacing"
-        },
-        "padding-inline-start": {
-          "value": "{ogds.space.inline.snail}",
-          "type": "spacing"
-        },
-        "icon": {
-          "padding-block-end": {
-            "value": "{ogds.space.block.snail}",
-            "type": "spacing"
-          },
-          "padding-block-start": {
-            "value": "{ogds.space.block.snail}",
-            "type": "spacing"
-          },
-          "padding-inline-end": {
-            "value": "{ogds.space.column.ant}",
-            "type": "spacing"
-          },
-          "padding-inline-start": {
-            "value": "{ogds.space.inline.ant}",
-            "type": "spacing"
-          },
-          "size": {
-            "type": "sizing",
-            "value": "{ogds.icon.functional.size}"
-          }
-        },
-        "message": {
-          "row-gap": {
-            "value": "{ogds.space.column.snail}",
-            "type": "spacing"
-          },
-          "padding-block-end": {
-            "value": "{ogds.space.block.snail}",
-            "type": "spacing"
-          },
-          "padding-block-start": {
-            "value": "{ogds.space.block.beetle}",
-            "type": "spacing"
-          }
-        },
-        "body": {
-          "font-size": {
-            "value": "{og.typography.font-size.body-s}",
-            "type": "fontSizes"
-          }
-        }
-      },
-      "spotlight": {
-        "color": {
-          "value": "{og.color.primary-color}",
-          "type": "color",
-          "secundary": {
-            "value": "{ogds.color.secondary-color}",
-            "type": "color"
-          }
-        }
-      }
-    }
-  },
+  "components/page-card-menu": {},
   "components/page-footer": {
     "og": {
       "pagefooter": {
@@ -1113,30 +1055,6 @@
           "color": {
             "value": "{og.color.white}",
             "type": "color"
-          },
-          "font-family": {
-            "value": "{og.typography.font-family.primary}",
-            "type": "fontFamilies"
-          },
-          "small-vw": {
-            "font-size": {
-              "value": "{og.paragraph-small-print.large-vw.font-size}",
-              "type": "fontSizes"
-            }
-          },
-          "large-vw": {
-            "font-size": {
-              "value": "{og.paragraph-small-print.large-vw.font-size}",
-              "type": "fontSizes"
-            }
-          },
-          "font-weight": {
-            "value": "{og.paragraph.font-weight}",
-            "type": "fontWeights"
-          },
-          "text-decoration": {
-            "value": "underline",
-            "type": "textDecoration"
           },
           "active": {
             "color": {
@@ -1440,6 +1358,38 @@
   "components/text-input": {},
   "components/toplinks": {},
   "components/toptasks": {},
+  "components/card": {
+    "og": {
+      "card": {
+        "background-color": {
+          "value": "{og.color.white}",
+          "type": "color"
+        },
+        "border-radius": {
+          "value": "{og.border-radius.card}",
+          "type": "borderRadius"
+        },
+        "hover": {
+          "background-color": {
+            "value": "{og.color.hover.background-color}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "components/pagination": {
+    "og": {
+      "pagination": {
+        "default": {
+          "color": {
+            "value": "{og.color.default-color}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
   "components/unordered-list": {
     "ogds": {
       "unordered-list": {
@@ -1522,6 +1472,8 @@
       "components/text-input",
       "components/toplinks",
       "components/toptasks",
+      "components/card",
+      "components/pagination",
       "components/unordered-list"
     ]
   }
