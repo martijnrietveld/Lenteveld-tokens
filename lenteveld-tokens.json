@@ -356,7 +356,7 @@
         "dark": {
           "alpha": {
             "100": {
-              "value": "rgba(0,0,0,0.24)",
+              "value": "rgba(0,0,0,0.12)",
               "type": "color"
             }
           }
@@ -1373,7 +1373,15 @@
           "background-color": {
             "value": "{og.color.hover.background-color}",
             "type": "color"
+          },
+          "box-shadow": {
+            "value": "0",
+            "type": "boxShadow"
           }
+        },
+        "box-shadow": {
+          "value": "{og.box-shadow.sm}",
+          "type": "boxShadow"
         }
       }
     }
