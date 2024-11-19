@@ -1067,7 +1067,70 @@
       }
     }
   },
-  "components/page-card-menu": {},
+  "components/card-list": {
+    "og": {
+      "card-list": {
+        "heading": {
+          "color": {
+            "value": "{og.color.secondary-color}",
+            "type": "color"
+          }
+        },
+        "grey": {
+          "heading": {
+            "color": {
+              "value": "{og.color.secondary-color}",
+              "type": "color"
+            }
+          },
+          "background-color": {
+            "value": "{og.color.grey-color}",
+            "type": "color"
+          }
+        },
+        "primary": {
+          "heading": {
+            "color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
+          },
+          "background-color": {
+            "value": "{og.color.primary-color}",
+            "type": "color"
+          }
+        },
+        "secundary": {
+          "heading": {
+            "color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
+          },
+          "background-color": {
+            "value": "{og.color.secondary-color}",
+            "type": "color"
+          }
+        },
+        "support": {
+          "heading": {
+            "color": {
+              "value": "{og.color.black}",
+              "type": "color"
+            }
+          },
+          "background-color": {
+            "value": "{og.color.support-color}",
+            "type": "color"
+          }
+        },
+        "background-color": {
+          "value": "{og.color.white}",
+          "type": "color"
+        }
+      }
+    }
+  },
   "components/page-footer": {
     "og": {
       "pagefooter": {
@@ -1672,7 +1735,7 @@
       "components/highlight-menu",
       "components/link",
       "components/ordered-list",
-      "components/page-card-menu",
+      "components/card-list",
       "components/page-footer",
       "components/page-header",
       "components/paragraph",
