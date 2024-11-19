@@ -1299,12 +1299,32 @@
             "value": "{og.color.grey-color}",
             "type": "color"
           },
-          "color": {
-            "value": "{og.color.black}",
-            "type": "color"
+          "text": {
+            "color": {
+              "value": "{og.color.black}",
+              "type": "color"
+            }
           },
           "heading": {
             "color": {
+              "value": "{og.color.secondary-color}",
+              "type": "color"
+            }
+          },
+          "content": {
+            "heading": {
+              "color": {
+                "value": "{og.color.secondary-color}",
+                "type": "color"
+              }
+            },
+            "text": {
+              "color": {
+                "value": "{og.color.black}",
+                "type": "color"
+              }
+            },
+            "background-color": {
               "value": "{og.color.primary-color}",
               "type": "color"
             }
@@ -1315,12 +1335,32 @@
             "value": "{og.color.primary-color}",
             "type": "color"
           },
-          "color": {
-            "value": "{og.color.white}",
-            "type": "color"
+          "text": {
+            "color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
           },
           "heading": {
             "color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
+          },
+          "content": {
+            "heading": {
+              "color": {
+                "value": "{og.color.white}",
+                "type": "color"
+              }
+            },
+            "text": {
+              "color": {
+                "value": "{og.color.black}",
+                "type": "color"
+              }
+            },
+            "background-color": {
               "value": "{og.color.white}",
               "type": "color"
             }
@@ -1331,12 +1371,32 @@
             "value": "{og.color.secondary-color}",
             "type": "color"
           },
-          "color": {
-            "value": "{og.color.white}",
-            "type": "color"
+          "text": {
+            "color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
           },
           "heading": {
             "color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
+          },
+          "content": {
+            "heading": {
+              "color": {
+                "value": "{og.color.white}",
+                "type": "color"
+              }
+            },
+            "text": {
+              "color": {
+                "value": "{og.color.black}",
+                "type": "color"
+              }
+            },
+            "background-color": {
               "value": "{og.color.white}",
               "type": "color"
             }
@@ -1347,13 +1407,33 @@
             "value": "{og.color.support-color}",
             "type": "color"
           },
-          "color": {
-            "value": "{og.color.black}",
-            "type": "color"
+          "text": {
+            "color": {
+              "value": "{og.color.black}",
+              "type": "color"
+            }
           },
           "heading": {
             "color": {
               "value": "{og.color.black}",
+              "type": "color"
+            }
+          },
+          "content": {
+            "heading": {
+              "color": {
+                "value": "{og.color.black}",
+                "type": "color"
+              }
+            },
+            "text": {
+              "color": {
+                "value": "{og.color.black}",
+                "type": "color"
+              }
+            },
+            "background-color": {
+              "value": "{og.color.white}",
               "type": "color"
             }
           }
@@ -1368,12 +1448,26 @@
           "value": "{og.border-radius.spotlight}",
           "type": "borderRadius"
         },
-        "color": {
-          "value": "{og.color.black}",
-          "type": "color"
+        "text": {
+          "color": {
+            "value": "{og.color.black}",
+            "type": "color"
+          }
         },
         "heading": {
           "color": {
+            "value": "{og.color.secondary-color}",
+            "type": "color"
+          }
+        },
+        "content": {
+          "heading": {
+            "color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
+          },
+          "background-color": {
             "value": "{og.color.primary-color}",
             "type": "color"
           }
