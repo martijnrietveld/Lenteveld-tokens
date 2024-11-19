@@ -1325,7 +1325,7 @@
               }
             },
             "background-color": {
-              "value": "{og.color.primary-color}",
+              "value": "{og.color.white}",
               "type": "color"
             }
           }
@@ -1350,7 +1350,7 @@
           "content": {
             "heading": {
               "color": {
-                "value": "{og.color.white}",
+                "value": "{og.color.secondary-color}",
                 "type": "color"
               }
             },
@@ -1386,7 +1386,7 @@
           "content": {
             "heading": {
               "color": {
-                "value": "{og.color.white}",
+                "value": "{og.color.secondary-color}",
                 "type": "color"
               }
             },
@@ -1438,12 +1438,6 @@
             }
           }
         },
-        "inverted": {
-          "color": {
-            "value": "{og.color.white}",
-            "type": "color"
-          }
-        },
         "border-radius": {
           "value": "{og.border-radius.spotlight}",
           "type": "borderRadius"
@@ -1470,6 +1464,12 @@
           "background-color": {
             "value": "{og.color.primary-color}",
             "type": "color"
+          },
+          "text": {
+            "color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
           }
         }
       }
