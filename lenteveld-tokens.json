@@ -365,8 +365,12 @@
             }
           }
         },
-        "default-color": {
+        "disabled-color": {
           "value": "#757575",
+          "type": "color"
+        },
+        "default-color": {
+          "value": "rgba(255,255,255,0)",
           "type": "color"
         }
       }
@@ -1070,9 +1074,15 @@
   "components/card-list": {
     "og": {
       "card-list": {
-        "heading": {
-          "color": {
-            "value": "{og.color.secondary-color}",
+        "default": {
+          "heading": {
+            "color": {
+              "value": "{og.color.secondary-color}",
+              "type": "color"
+            }
+          },
+          "background-color": {
+            "value": "{og.color.white}",
             "type": "color"
           }
         },
@@ -1123,10 +1133,6 @@
             "value": "{og.color.support-color}",
             "type": "color"
           }
-        },
-        "background-color": {
-          "value": "{og.color.white}",
-          "type": "color"
         }
       }
     }
@@ -1657,7 +1663,7 @@
       "pagination": {
         "default": {
           "color": {
-            "value": "{og.color.default-color}",
+            "value": "{og.color.disabled-color}",
             "type": "color"
           }
         }
