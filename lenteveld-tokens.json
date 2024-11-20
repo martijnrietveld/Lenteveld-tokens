@@ -1044,7 +1044,7 @@
             }
           },
           "background-color": {
-            "value": "{og.color.white}",
+            "value": "{og.color.section.default-color}",
             "type": "color"
           }
         },
@@ -1056,7 +1056,7 @@
             }
           },
           "background-color": {
-            "value": "{og.color.grey-color}",
+            "value": "{og.color.section.grey-color}",
             "type": "color"
           }
         },
@@ -1068,7 +1068,7 @@
             }
           },
           "background-color": {
-            "value": "{og.color.primary-color}",
+            "value": "{og.color.section.primary-color}",
             "type": "color"
           }
         },
@@ -1080,7 +1080,7 @@
             }
           },
           "background-color": {
-            "value": "{og.color.secondary-color}",
+            "value": "{og.color.section.secondary-color}",
             "type": "color"
           }
         },
@@ -1092,7 +1092,7 @@
             }
           },
           "background-color": {
-            "value": "{og.color.support-color}",
+            "value": "{og.color.section.support-color}",
             "type": "color"
           }
         }
@@ -1505,7 +1505,7 @@
           "value": "{og.border-radius.spotlight}",
           "type": "borderRadius"
         },
-        "verticaldivider": {
+        "divider": {
           "color": {
             "value": "{og.color.section.default-color}",
             "type": "color"
