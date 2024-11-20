@@ -179,7 +179,7 @@
         },
         "hover": {
           "background-color": {
-            "value": "#e8edf0",
+            "value": "#EBF2F4",
             "type": "color"
           }
         },
@@ -207,48 +207,20 @@
           "value": "#00801e",
           "type": "color"
         },
-        "secondary-color-light": {
-          "value": "#009924",
-          "type": "color"
-        },
-        "secondary-color-lightest": {
-          "value": "#00CC30",
-          "type": "color"
-        },
         "secondary-color-dark": {
           "value": "#006618",
-          "type": "color"
-        },
-        "secondary-color-darkest": {
-          "value": "#004D12",
           "type": "color"
         },
         "support-color": {
           "value": "#f6a61e",
           "type": "color"
         },
-        "support-color-light": {
-          "value": "#f8ba4f",
-          "type": "color"
-        },
-        "support-color-lightest": {
-          "value": "#FACD80",
-          "type": "color"
-        },
         "support-color-dark": {
-          "value": "#F6A61E",
-          "type": "color"
-        },
-        "support-color-darkest": {
-          "value": "#F09C0A",
+          "value": "#f09c0a",
           "type": "color"
         },
         "contrast-color": {
           "value": "#E04F38",
-          "type": "color"
-        },
-        "contrast-color-light": {
-          "value": "#E77665",
           "type": "color"
         },
         "contrast-color-lightest": {
@@ -259,28 +231,12 @@
           "value": "#DC3B23",
           "type": "color"
         },
-        "contrast-color-darkest": {
-          "value": "#C7351F",
-          "type": "color"
-        },
         "grey-color": {
           "value": "#edefed",
           "type": "color"
         },
-        "grey-color-light": {
-          "value": "#fafafa",
-          "type": "color"
-        },
-        "grey-color-lightest": {
-          "value": "#ffffff",
-          "type": "color"
-        },
         "grey-color-dark": {
           "value": "#dfe2df",
-          "type": "color"
-        },
-        "grey-color-darkest": {
-          "value": "#d1d6d1",
           "type": "color"
         },
         "status": {
