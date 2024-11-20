@@ -313,11 +313,11 @@
           "value": "#757575",
           "type": "color"
         },
-        "default-color": {
-          "value": "rgba(255,255,255,0)",
-          "type": "color"
-        },
-        "background": {
+        "section": {
+          "default-color": {
+            "value": "rgba(255,255,255,0)",
+            "type": "color"
+          },
           "primary-color": {
             "value": "#014387",
             "type": "color"
@@ -1321,9 +1321,41 @@
   "components/spotlight": {
     "og": {
       "spotlight": {
-        "background-color": {
-          "value": "{og.color.container-color}",
-          "type": "color"
+        "default": {
+          "background-color": {
+            "value": "{og.color.section.default-color}",
+            "type": "color"
+          },
+          "text": {
+            "color": {
+              "value": "{og.color.black}",
+              "type": "color"
+            }
+          },
+          "heading": {
+            "color": {
+              "value": "{og.color.secondary-color}",
+              "type": "color"
+            }
+          },
+          "content": {
+            "heading": {
+              "color": {
+                "value": "{og.color.white}",
+                "type": "color"
+              }
+            },
+            "background-color": {
+              "value": "{og.color.primary-color}",
+              "type": "color"
+            },
+            "text": {
+              "color": {
+                "value": "{og.color.white}",
+                "type": "color"
+              }
+            }
+          }
         },
         "grey": {
           "background-color": {
@@ -1472,36 +1504,6 @@
         "border-radius": {
           "value": "{og.border-radius.spotlight}",
           "type": "borderRadius"
-        },
-        "text": {
-          "color": {
-            "value": "{og.color.black}",
-            "type": "color"
-          }
-        },
-        "heading": {
-          "color": {
-            "value": "{og.color.secondary-color}",
-            "type": "color"
-          }
-        },
-        "content": {
-          "heading": {
-            "color": {
-              "value": "{og.color.white}",
-              "type": "color"
-            }
-          },
-          "background-color": {
-            "value": "{og.color.primary-color}",
-            "type": "color"
-          },
-          "text": {
-            "color": {
-              "value": "{og.color.white}",
-              "type": "color"
-            }
-          }
         }
       }
     }
