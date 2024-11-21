@@ -149,7 +149,7 @@
           },
           "type": "boxShadow"
         },
-        "md": {
+        "pageheader": {
           "value": {
             "x": "0",
             "y": "8",
