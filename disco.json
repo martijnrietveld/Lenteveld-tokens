@@ -1736,7 +1736,50 @@
     }
   },
   "components/text-input": {},
-  "components/textmedia": {},
+  "components/textmedia": {
+    "og": {
+      "textmedia": {
+        "dark": {
+          "background": {
+            "color": {
+              "value": "{og.color.primary-color}",
+              "type": "color"
+            }
+          },
+          "heading": {
+            "color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
+          },
+          "link": {
+            "color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            },
+            "active": {
+              "color": {
+                "value": "{og.color.hover.background-color}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "color": {
+                "value": "{og.color.hover.background-color}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "components/toplinks": {},
   "components/toptasks": {},
   "components/card": {
