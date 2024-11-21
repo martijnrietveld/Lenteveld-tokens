@@ -1736,6 +1736,7 @@
     }
   },
   "components/text-input": {},
+  "components/textmedia": {},
   "components/toplinks": {},
   "components/toptasks": {},
   "components/card": {
@@ -1859,6 +1860,7 @@
       "components/social-share",
       "components/tag",
       "components/text-input",
+      "components/textmedia",
       "components/toplinks",
       "components/toptasks",
       "components/card",
