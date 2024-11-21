@@ -1129,17 +1129,17 @@
                 "value": "{og.color.hover.background-color}",
                 "type": "color"
               }
-            },
-            "inverted": {
-              "color": {
-                "value": "{og.color.primary-color}",
-                "type": "color"
-              }
             }
           },
           "footerlink": {
             "background-color": {
               "value": "{og.color.primary-color-dark}",
+              "type": "color"
+            }
+          },
+          "heading": {
+            "color": {
+              "value": "{og.color.white}",
               "type": "color"
             }
           }
@@ -1161,6 +1161,12 @@
                 "value": "{og.color.primary-color-dark}",
                 "type": "color"
               }
+            },
+            "hover": {
+              "color": {
+                "value": "{og.color.primary-color-dark}",
+                "type": "color"
+              }
             }
           },
           "footerlink": {
@@ -1169,15 +1175,15 @@
               "type": "color"
             }
           },
-          "hover": {
-            "color": {
-              "value": "{og.color.primary-color-dark}",
-              "type": "color"
-            }
-          },
           "heading": {
             "color": {
               "value": "{og.color.primary-color}",
+              "type": "color"
+            }
+          },
+          "background": {
+            "color": {
+              "value": "{og.color.white}",
               "type": "color"
             }
           }
