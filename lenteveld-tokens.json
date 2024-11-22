@@ -50,7 +50,7 @@
         },
         "font-family": {
           "primary": {
-            "value": "Inter, Tahoma, Verdana, sans-serif",
+            "value": "Comic Sans MS",
             "type": "fontFamilies"
           },
           "secondary": {
@@ -192,7 +192,7 @@
           "type": "color"
         },
         "black": {
-          "value": "#333333",
+          "value": "#595600",
           "type": "color"
         },
         "primary-color": {
@@ -204,7 +204,7 @@
           "type": "color"
         },
         "secondary-color": {
-          "value": "#00801e",
+          "value": "#00c167",
           "type": "color"
         },
         "secondary-color-dark": {
@@ -212,7 +212,7 @@
           "type": "color"
         },
         "support-color": {
-          "value": "#f6a61e",
+          "value": "#edf800",
           "type": "color"
         },
         "support-color-dark": {
@@ -319,19 +319,19 @@
             "type": "color"
           },
           "primary-color": {
-            "value": "#014387",
+            "value": "#4b00e2",
             "type": "color"
           },
           "secondary-color": {
-            "value": "#00801e",
+            "value": "#00c167",
             "type": "color"
           },
           "support-color": {
-            "value": "#b0e2f0",
+            "value": "#c1fdff",
             "type": "color"
           },
           "grey-color": {
-            "value": "#edefed",
+            "value": "#ffeffc",
             "type": "color"
           }
         }
@@ -478,6 +478,136 @@
     }
   },
   "components/accordeon": {},
+  "components/banner": {
+    "og": {
+      "banner": {
+        "default": {
+          "heading": {
+            "color": {
+              "value": "{og.color.primary-color}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "color": {
+              "value": "{og.color.black}",
+              "type": "color"
+            }
+          },
+          "content": {
+            "background-color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
+          },
+          "background-color": {
+            "value": "{og.color.section.default-color}",
+            "type": "color"
+          }
+        },
+        "primary": {
+          "heading": {
+            "color": {
+              "value": "{og.color.primary-color}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "color": {
+              "value": "{og.color.black}",
+              "type": "color"
+            }
+          },
+          "content": {
+            "background-color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
+          },
+          "background-color": {
+            "value": "{og.color.section.primary-color}",
+            "type": "color"
+          }
+        },
+        "secundary": {
+          "heading": {
+            "color": {
+              "value": "{og.color.primary-color}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "color": {
+              "value": "{og.color.black}",
+              "type": "color"
+            }
+          },
+          "content": {
+            "background-color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
+          },
+          "background-color": {
+            "value": "{og.color.section.secondary-color}",
+            "type": "color"
+          }
+        },
+        "support": {
+          "heading": {
+            "color": {
+              "value": "{og.color.primary-color}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "color": {
+              "value": "{og.color.black}",
+              "type": "color"
+            }
+          },
+          "content": {
+            "background-color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
+          },
+          "background-color": {
+            "value": "{og.color.section.support-color}",
+            "type": "color"
+          }
+        },
+        "grey": {
+          "heading": {
+            "color": {
+              "value": "{og.color.primary-color}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "color": {
+              "value": "{og.color.black}",
+              "type": "color"
+            }
+          },
+          "content": {
+            "background-color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
+          },
+          "background-color": {
+            "value": "{og.color.section.grey-color}",
+            "type": "color"
+          }
+        },
+        "border-radius": {
+          "value": "{og.border-radius.spotlight}",
+          "type": "borderRadius"
+        }
+      }
+    }
+  },
   "components/breadcrumb": {
     "ogds": {
       "breadcrumb": {
@@ -1102,55 +1232,71 @@
   "components/page-footer": {
     "og": {
       "pagefooter": {
-        "background": {
+        "dark": {
           "color": {
             "value": "{og.color.primary-color}",
             "type": "color"
+          },
+          "text": {
+            "color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
+          },
+          "link": {
+            "color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            },
+            "active": {
+              "color": {
+                "value": "{og.color.hover.background-color}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "color": {
+                "value": "{og.color.hover.background-color}",
+                "type": "color"
+              }
+            }
+          },
+          "footerlink": {
+            "background-color": {
+              "value": "{og.color.primary-color-dark}",
+              "type": "color"
+            }
+          },
+          "heading": {
+            "color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
           }
         },
-        "color": {
-          "value": "{og.color.white}",
-          "type": "color"
-        },
-        "link": {
-          "color": {
-            "value": "{og.color.white}",
-            "type": "color"
-          },
-          "active": {
+        "light": {
+          "text": {
             "color": {
-              "value": "{og.color.hover.background-color}",
+              "value": "{og.color.black}",
               "type": "color"
             }
-          },
-          "hover": {
-            "color": {
-              "value": "{og.color.hover.background-color}",
-              "type": "color"
-            }
-          },
-          "inverted": {
-            "color": {
-              "value": "{og.color.primary-color}",
-              "type": "color"
-            }
-          }
-        },
-        "inverted": {
-          "background": {
-            "color": {
-              "value": "{og.color.support-color}",
-              "type": "color"
-            }
-          },
-          "color": {
-            "value": "{og.color.black}",
-            "type": "color"
           },
           "link": {
             "color": {
               "value": "{og.color.primary-color}",
               "type": "color"
+            },
+            "active": {
+              "color": {
+                "value": "{og.color.primary-color-dark}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "color": {
+                "value": "{og.color.primary-color-dark}",
+                "type": "color"
+              }
             }
           },
           "footerlink": {
@@ -1159,23 +1305,15 @@
               "type": "color"
             }
           },
-          "active": {
+          "heading": {
             "color": {
-              "value": "{og.color.primary-color-dark}",
+              "value": "{og.color.primary-color}",
               "type": "color"
             }
           },
-          "hover": {
-            "color": {
-              "value": "{og.color.primary-color-dark}",
-              "type": "color"
-            }
-          }
-        },
-        "footerlink": {
           "background": {
             "color": {
-              "value": "{og.color.primary-color-dark}",
+              "value": "{og.color.white}",
               "type": "color"
             }
           }
@@ -1598,6 +1736,50 @@
     }
   },
   "components/text-input": {},
+  "components/textmedia": {
+    "og": {
+      "textmedia": {
+        "dark": {
+          "background": {
+            "color": {
+              "value": "{og.color.primary-color}",
+              "type": "color"
+            }
+          },
+          "heading": {
+            "color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            }
+          },
+          "link": {
+            "color": {
+              "value": "{og.color.white}",
+              "type": "color"
+            },
+            "active": {
+              "color": {
+                "value": "{og.color.hover.background-color}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "color": {
+                "value": "{og.color.hover.background-color}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "components/toplinks": {},
   "components/toptasks": {},
   "components/card": {
@@ -1703,6 +1885,7 @@
       "common",
       "components/alert",
       "components/accordeon",
+      "components/banner",
       "components/breadcrumb",
       "components/button",
       "components/datetime",
@@ -1720,6 +1903,7 @@
       "components/social-share",
       "components/tag",
       "components/text-input",
+      "components/textmedia",
       "components/toplinks",
       "components/toptasks",
       "components/card",
