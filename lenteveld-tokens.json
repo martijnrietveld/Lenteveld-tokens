@@ -50,7 +50,7 @@
         },
         "font-family": {
           "primary": {
-            "value": "Comic Sans MS",
+            "value": "Inter, Tahoma, Verdana, sans-serif",
             "type": "fontFamilies"
           },
           "secondary": {
@@ -192,7 +192,7 @@
           "type": "color"
         },
         "black": {
-          "value": "#595600",
+          "value": "#333333",
           "type": "color"
         },
         "primary-color": {
@@ -204,7 +204,7 @@
           "type": "color"
         },
         "secondary-color": {
-          "value": "#00c167",
+          "value": "#00801e",
           "type": "color"
         },
         "secondary-color-dark": {
@@ -212,7 +212,7 @@
           "type": "color"
         },
         "support-color": {
-          "value": "#edf800",
+          "value": "#f6a61e",
           "type": "color"
         },
         "support-color-dark": {
@@ -319,19 +319,19 @@
             "type": "color"
           },
           "primary-color": {
-            "value": "#4b00e2",
+            "value": "#014387",
             "type": "color"
           },
           "secondary-color": {
-            "value": "#00c167",
+            "value": "#00801e",
             "type": "color"
           },
           "support-color": {
-            "value": "#c1fdff",
+            "value": "#cce7ee",
             "type": "color"
           },
           "grey-color": {
-            "value": "#ffeffc",
+            "value": "#edefed",
             "type": "color"
           }
         }
